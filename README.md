@@ -1,4 +1,4 @@
-# iNewsWidget
+# iNews
 
 <!-- ABOUT THE PROJECT -->
 ## About
