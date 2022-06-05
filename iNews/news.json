@@ -1,45 +1,149 @@
 {
     "status": "ok",
-    "totalResults": 16885,
+    "totalResults": 17449,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Seeking Alpha"
+                "name": "Sostav.ru"
             },
-            "author": "Trent Welsh",
-            "title": "My $359k 21-Stock Portfolio Ditches Diversification For Specialization In May",
-            "description": "A portfolio for investors to outperform the majority of money managers through diversity and risk. Read more about the portfolio here.",
-            "url": "https://seekingalpha.com/article/4515686-my-359k-21-stock-portfolio-ditches-diversification-for-specialization-in-may",
-            "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1317214769/image_1317214769.jpg?io=getty-c-w750",
-            "publishedAt": "2022-06-01T13:51:43Z",
-            "content": "curraheeshutter/iStock via Getty Images\r\nIt is my firm belief that 80% of money managers can't outperform the S&amp;P 500 index over time due primarily to the fees they charge their clients. Each and… [+28448 chars]"
+            "author": "Sostav.ru",
+            "title": "Состояние Илона Маска сократилось на $17млрд из-за падений акций Tesla",
+            "description": "Акции компании упали на фоне объявления о сокращении сотрудников",
+            "url": "https://www.sostav.ru/publication/sostoyanie-ilona-maska-sokratilos-na-17-mlrd-iz-za-padenij-aktsij-tesla-54724.html",
+            "urlToImage": "https://www.sostav.ru/images/news/2022/06/05/preview/54724_social.jpg?rnd=937558",
+            "publishedAt": "2022-06-05T12:31:00Z",
+            "content": "Tesla $17 . ,   10% .   Reuters. \r\n  ,   « »   ,  , «   ». \r\n , . : 40          .     .\r\n, ,  .   .\r\n   -   Tesla  5%. $16,9 .     100000 ,    .\r\n     $216,8 ."
         },
         {
             "source": {
                 "id": null,
-                "name": "Socaltech.com"
+                "name": "Nep123.com"
+            },
+            "author": "NEP123 Reporter",
+            "title": "Musk’s Twitter deal is being opposed by advocacy groups who are attempting to stop it.",
+            "description": "A dozen advocacy groups are launching a new campaign Friday to stop Tesla CEO Elon Musk’s $44 billion purchase of Twitter, warning that if he is allowed to take control, he will weaken important safeguards on the platform. The Stop the Deal campaign, which wa…",
+            "url": "https://nep123.com/2022/06/05/musks-twitter-deal-is-being-opposed-by-advocacy-groups-who-are-attempting-to-stop-it/",
+            "urlToImage": "https://nep123.com/wp-content/uploads/2022/06/ooij2wvirjy2van1_1652065789.jpeg.jpg",
+            "publishedAt": "2022-06-05T12:26:33Z",
+            "content": "A dozen advocacy groups are launching a new campaign Friday to stop Tesla CEO Elon Musk’s $44 billion purchase of Twitter, warning that if he is allowed to take control, he will weaken important safe… [+4099 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Freerepublic.com"
+            },
+            "author": "Fox News",
+            "title": "Elon Musk asks why 'leaking' DOJ won't spill Epstein client list: 'Doesn't that seem odd?'",
+            "description": "Elon Musk took to Twitter Saturday to ask if anyone was bothered by how quiet the \"leaking\" Justice Department is when it comes to the Jeffrey Epstein and Ghislaine Maxwell. Musk, the CEO of Tesla and SpaceX, said the DOJ, which grew notoriety for leaking und…",
+            "url": "https://freerepublic.com/focus/f-news/4068754/posts",
+            "urlToImage": null,
+            "publishedAt": "2022-06-05T12:24:49Z",
+            "content": "Skip to comments.\r\nElon Musk asks why 'leaking' DOJ won't spill Epstein client list: 'Doesn't that seem odd?'Fox News ^\r\n | June 5, 2022\r\n | Lawrence Richard\r\nPosted on 06/05/2022 5:24:49 AM PDT by M… [+1839 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Businessinsider.com.pl"
+            },
+            "author": "Insider",
+            "title": "Zmierzch technologicznych bogów. Giganci z Doliny Krzemowej wyparują z rynku",
+            "description": "Niedługo będziemy świadkami czystki wśród bohaterów. W ciągu ostatnich 20 lat najzdolniejsze umysły Ameryki wyjechały na Zachód, by szukać nowych szans w Dolinie Krzemowej. Tłumaczyli nam, że nie chodzi im o zdobycie bogactwa, lecz o rozwiązanie palących prob…",
+            "url": "https://businessinsider.com.pl/twoje-pieniadze/praca/zmierzch-technologicznych-bogow-giganci-z-doliny-krzemowej-wyparuja-z-rynku/srbg7qc",
+            "urlToImage": "https://ocdn.eu/pulscms-transforms/1/TFbk9kpTURBXy8wNzc1ZWJlOTRmYTgwNzNhODliNmFjOWE2YTI3NjdlOC5wbmeSlQMAAM0DFM0BvJMFzQSwzQJ2gaEwAQ",
+            "publishedAt": "2022-06-05T12:19:00Z",
+            "content": "<ul><li>Przez ostatnie dwie dekady rynek nagradza rozwój nad stabilnoci, a liderzy z Doliny Krzemowej wykorzystali to na swoj korzy - pisze Linette Lopez z Insidera US</li><li>Przy uyciu tradycyjnych… [+14973 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Reuters",
+            "title": "Musk backtracks on job cuts, says Tesla salaried staff to be 'fairly flat'",
+            "description": "Elon Musk said that total headcount will increase over next 12 months, but number of salaried staff should be little changed, backtracking from an email saying that job cuts of 10% were needed",
+            "url": "https://www.business-standard.com/article/international/musk-backtracks-on-job-cuts-says-tesla-salaried-staff-to-be-fairly-flat-122060500566_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-05/21/full/1653103261-2256.jpg",
+            "publishedAt": "2022-06-05T12:14:00Z",
+            "content": "Tesla Inc Chief Executive Elon Musk said on Saturday that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little changed… [+2751 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Génération NT"
+            },
+            "author": "Christian D.",
+            "title": "Tesla : le Super Bad Feeling d'Elon Musk pourrait conduire à licencier 10% des effectifs",
+            "description": "Après avoir appelé au rappel des salariés au bureau, Elon Musk envisage de supprimer environ 10% de l'effectif de Tesla sous le coup d'un Super Bad Feeling à propos de l'économie.",
+            "url": "https://www.generation-nt.com/tesla-elon-musk-super-bad-feeling-suppression-emploi-actualite-2001874.html",
+            "urlToImage": "https://img.generation-nt.com/tesla-model-3_04B002D601657861.webp",
+            "publishedAt": "2022-06-05T12:10:01Z",
+            "content": "Tesla avait enchaîné les bons résultats en début d'année et avait généré de solides profits, semblant valider tous les efforts consentis depuis des années pour faire grimper la capacité de production… [+1645 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Naftemporiki.gr"
             },
             "author": null,
-            "title": "Elon Musk Tells Tesla Employees To Work In The Texas Office, Or Quit",
-            "description": "Elon Musk, who is the CEO of Tesla in addition to his post at Hawthorne, California-based SpaceX, has ordered Tesla employees to spend a minimum of 40 hours in the office per week, or quit. According to emails leaked from Tesla, Musk said that if employees do…",
-            "url": "https://www.socaltech.com/elon_musk_tells_tesla_employees_to_work_in_the_texas_office_or_quit/s-0082558.html",
-            "urlToImage": null,
-            "publishedAt": "2022-06-01T13:51:00Z",
-            "content": "Wednesday, June 1, 2022\r\nElon Musk, who is the CEO of Tesla in addition to his post at Hawthorne, California-based SpaceX, has ordered Tesla employees to spend a minimum of 40 hours in the office per… [+592 chars]"
+            "title": "Έλον Μασκ: Οι υποσχέσεις που δεν τήρησε",
+            "description": "Πολλοί περιγράφουν τον πλουσιότερο άνθρωπο στον κόσμο, Έλον Μασκ, ως οραματιστή του οποίου οι προβλέψεις συνήθως πραγματοποιούνται. Ωστόσο, πολλές από τις δηλώσεις του θεωρούνται ως απλή προσπάθεια χειραγώγησης της αγοράς. Τα παραδείγματα πολλά.",
+            "url": "https://www.naftemporiki.gr/finance/story/1869876/elon-mask-oi-uposxeseis-pou-den-tirise",
+            "urlToImage": "https://www.naftemporiki.gr/fu/t/1869876/1080/568/0x0000000001d40d2a/2/1/elon-mask-oi-uposxeseis-tirise.jpg",
+            "publishedAt": "2022-06-05T12:06:46Z",
+            "content": "[email protected]\r\n , , . 96 Twitter   , , .\r\n, . :\r\n«» Twitter\r\n , . Twitter .\r\n «» . deal , . .\r\n Twitter   . , 9% Twitter , 10 . . , tweets , .\r\n, , , .  Business Insider South Africa  2018, Tiffa… [+782 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Seeking Alpha"
+                "name": "KOLR - OzarksFirst.com"
             },
-            "author": "Kevin P. Curran",
-            "title": "Embark Technology eyes road to recovery in under-addressed opportunities",
-            "description": "Embark Technology (EMBK) CEO Alex Rodrigues shares his vision for the autonomous trucking company to course-correct.",
-            "url": "https://seekingalpha.com/news/3844071-embark-technology-eyes-road-to-recovery-in-under-addressed-opportunities",
-            "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1279002529/image_1279002529.jpg?io=getty-c-w750",
-            "publishedAt": "2022-06-01T13:34:21Z",
-            "content": "RichLegg/E+ via Getty Images\r\nIts been an inauspicious life as a publicly traded company for Embark Technology (NASDAQ:EMBK) since going public in 2021. \r\nShares of the autonomous driving technology … [+5433 chars]"
+            "author": "iSeeCars, Nexstar Media Wire",
+            "title": "The most and least expensive cities to buy electric cars",
+            "description": "Due to regional used car price variations, budget-minded used car shoppers who are willing to travel can increase their chances of finding a discount on electric cars.",
+            "url": "https://www.ozarksfirst.com/local-news/national-news/the-most-and-least-expensive-cities-to-buy-electric-cars/",
+            "urlToImage": "https://www.ozarksfirst.com/wp-content/uploads/sites/65/2022/06/Tesla-Model-S.jpg?w=1280",
+            "publishedAt": "2022-06-05T12:00:49Z",
+            "content": "(iSeeCars) – Although they have fallen in recent months, used car prices are still significantly higher than they were a year ago as a result of the ongoing microchip shortage. Meanwhile, gas prices … [+5615 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WGN TV Chicago"
+            },
+            "author": "iSeeCars, Nexstar Media Wire",
+            "title": "The most and least expensive cities to buy electric cars",
+            "description": "Due to regional used car price variations, budget-minded used car shoppers who are willing to travel can increase their chances of finding a discount on electric cars.",
+            "url": "https://wgntv.com/news/nexstar-media-wire/the-most-and-least-expensive-cities-to-buy-electric-cars/",
+            "urlToImage": "https://wgntv.com/wp-content/uploads/sites/5/2022/06/Tesla-Model-S.jpg?w=1280",
+            "publishedAt": "2022-06-05T12:00:42Z",
+            "content": "(iSeeCars) – Although they have fallen in recent months, used car prices are still significantly higher than they were a year ago as a result of the ongoing microchip shortage. Meanwhile, gas prices … [+5637 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNA"
+            },
+            "author": null,
+            "title": "Musk backtracks on job cuts, says Tesla salaried staff to be 'fairly flat'",
+            "description": "Tesla Chief Executive Elon Musk said on Saturday (Jun 4) that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little changed, backtracking from an email just two days ago saying th…",
+            "url": "https://www.channelnewsasia.com/business/elon-musk-tesla-backtracks-job-cuts-salaried-staff-fairly-flat-twitter-2728381",
+            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--1tEi0wN1--/c_crop,h_562,w_1000,x_0,y_64/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/musk_twitter_stock_sale_12290.jpg?itok=w1HeJRXX",
+            "publishedAt": "2022-06-05T11:58:00Z",
+            "content": "Tesla Chief Executive Elon Musk said on Saturday (Jun 4) that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little cha… [+1310 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNA"
+            },
+            "author": null,
+            "title": "Musk backtracks on job cuts, says Tesla salaried staff to be 'fairly flat'",
+            "description": "Tesla Chief Executive Elon Musk said on Saturday (Jun 4) that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little changed, backtracking from an email just two days ago saying th…",
+            "url": "https://www.channelnewsasia.com/business/musk-backtracks-job-cuts-says-tesla-salaried-staff-be-fairly-flat-2728381",
+            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--Ly1x8hex--/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2022-06-05t115842z_3_lynxmpei530bq_rtroptp_3_tesla-jobs.jpg?itok=6cHbpkbj",
+            "publishedAt": "2022-06-05T11:58:00Z",
+            "content": "Tesla Chief Executive Elon Musk said on Saturday (Jun 4) that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little cha… [+1311 chars]"
         },
         {
             "source": {
@@ -47,220 +151,116 @@
                 "name": "Slashdot.org"
             },
             "author": "feedfeeder",
-            "title": "Dow Jones Dips As Apple Rallies; Tesla Stock Stalls Despite This; Oil Stocks Test Buy Points - Investor's Business Daily",
-            "description": "Dow Jones Dips As Apple Rallies; Tesla Stock Stalls Despite This; Oil Stocks Test Buy PointsInvestor's Business Daily Oil firms on EU's Russian oil ban and end of Shanghai lockdownCNBC Crude Oil Price Forecast: Reversal Exposes DownsideDailyFX Oil prices jump…",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=162528144",
+            "title": "Elon Musk Opens Door To A Tesla Talent Exodus, Despite Golden Handcuffs - NDTV Profit",
+            "description": "Elon Musk Opens Door To A Tesla Talent Exodus, Despite Golden HandcuffsNDTV Profit After emailing employees about job cuts at Tesla, Elon Musk says the total headcount at the company will increaseYahoo News Elon Musk Just Announced Some Very Big Changes, and …",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=162650182",
             "urlToImage": null,
-            "publishedAt": "2022-06-01T13:34:21Z",
+            "publishedAt": "2022-06-05T11:52:39Z",
             "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way."
         },
         {
             "source": {
-                "id": null,
-                "name": "DIE WELT"
+                "id": "svenska-dagbladet",
+                "name": "Svenska Dagbladet"
             },
-            "author": "Daniel Zwick, Daniel Zwick",
-            "title": "„Mindestens 40 Stunden im Büro“ – Elon Musk setzt dem Homeoffice ein Ende",
-            "description": "Arbeiten, wo immer man will? Homeoffice wird auch bei vielen großen Unternehmen nach der Corona-Pandemie möglich sein. Nicht so bei Tesla. Sein Chef Elon Musk zitiert die Mitarbeiter ohne Kompromisse zurück ins Büro – und stärkt damit die Front der Homeoffice…",
-            "url": "https://www.welt.de/wirtschaft/article239125639/Elon-Musk-40-Stunden-im-Buero-Tesla-Chef-setzt-Homeoffice-ein-Ende.html",
-            "urlToImage": "https://img.welt.de/img/wirtschaft/mobile239125927/0721352797-ci16x9-w1200/at-arrivals-for-Met-Gala-Costume-Institute-Benefit-and-Opening-of.jpg",
-            "publishedAt": "2022-06-01T13:31:05Z",
-            "content": "Ist die Arbeitswelt nach Corona eine andere als zuvor? Weltweit wird diese Frage zwischen Chefs und Angestellten in Unternehmen diskutiert. Fast alle großen Konzerne gewähren ihren Mitarbeitern inzwi… [+1787 chars]"
+            "author": "Henrik Samuelsson/TT",
+            "title": "Musk: Tiden mogen för EU-beslut om autopilot",
+            "description": "En del bilar är snart så bra på att köra själva att EU ska kunna besluta om nya regler. Det hävdar Tesla-chefen Elon Musk.",
+            "url": "https://www.svd.se/a/QyvBnV/musk-tiden-mogen-for-eu-beslut-om-autopilot",
+            "urlToImage": "https://svd.vgc.no/v2/images/7ccee445-ea65-43e9-9a35-0932fe0df951?h=630&q=80&upscale=true&w=1200&s=a9d474401a0c6008a6c336056ac9dea03d2f9b0f",
+            "publishedAt": "2022-06-05T11:40:12Z",
+            "content": "Bilarna från den amerikanska tillverkaren har en autopilot som ska möjliggöra att de navigerar själva i alla trafikmiljöer. Än så länge är dock tekniken bara på teststadiet, och endast utvalda kunder… [+245 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "PRNewswire"
+                "name": "Wykop.pl"
             },
-            "author": null,
-            "title": "Thinking about trading options or stock in Salesforce, NVIDIA, Victoria's Secret, Tesla, or ConocoPhillips?",
-            "description": "NEW YORK, June 1, 2022 /PRNewswire/ -- InvestorsObserver issues critical PriceWatch Alerts for CRM, NVDA, VSCO, TSLA, and COP. Click a link below then choose between in-depth options trade idea report or a stock score report. Options Report – Ideal trade idea…",
-            "url": "https://www.prnewswire.com/news-releases/thinking-about-trading-options-or-stock-in-salesforce-nvidia-victorias-secret-tesla-or-conocophillips-301559012.html",
-            "urlToImage": "https://mma.prnewswire.com/media/1333368/InvestorsObserver_Logo.jpg?p=facebook",
-            "publishedAt": "2022-06-01T13:31:00Z",
-            "content": "NEW YORK, June 1, 2022 /PRNewswire/ -- InvestorsObserver issues critical PriceWatch Alerts for CRM, NVDA, VSCO, TSLA, and COP.\r\nClick a link below then choose between in-depth options trade idea repo… [+797 chars]"
+            "author": "ntdc",
+            "title": "Elon Musk: Tesla Bot nadchodzi",
+            "description": "Tesla ma działający prototyp humanoidalnego robota Optimus.",
+            "url": "https://www.wykop.pl/link/6689329/elon-musk-tesla-bot-nadchodzi/",
+            "urlToImage": "https://www.wykop.pl/cdn/c3397993/link_165442830162fIkpW2t7PxuOW1yRp76G,w1200h627f.jpg",
+            "publishedAt": "2022-06-05T11:26:50Z",
+            "content": "Drogi Wykopowiczu\r\nw zaczonym linku do Polityki Prywatnoci przypominamy podstawowe informacje z zakresu przetwarzania danych osobowych dostarczanych przez Ciebie podczas korzystania z naszego serwisu… [+108 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Haber7.com"
+                "name": "MENAFN.COM"
             },
-            "author": "Fuat Öner",
-            "title": "Elon Musk'tan çalışanlarına tehdit: Kovulursunuz",
-            "description": "Tesla CEO'su Elon Musk, uzaktan çalışma ile ilgili sert açıklamalar yaptı. Musk, Tesla çalışanlarının 40 saat ofiste çalışmazlarsa kovulacaklarını söyledi.",
-            "url": "https://ekonomi.haber7.com/ekonomi/haber/3228215-elon-musktan-calisanlarina-tehdit-kovulursunuz",
-            "urlToImage": "https://i12.haber7.net//haber/haber7/og_image/2022/22/elon_musktan_calisanlarina_tehdit_kovulursunuz_1654090237_3286.jpg",
-            "publishedAt": "2022-06-01T13:30:00Z",
-            "content": "Tesla CEOsu, irketteki üst düzey personele, ofiste haftada en az 40 saat çalmadklar takdirde kovulacaklarn söyledi. Musk, uzaktan çalma artk kabul edilemez balkl bir e-postayla çalanlarn ofise dönüün… [+1488 chars]"
+            "author": "MENAFN",
+            "title": "Viettel Experts Win At World's Leading Cyber-Attack Contest",
+            "description": "<p>VIETNAM, June 5 - </p> \n<p>IT experts at Viettel Cyber Security. Photo courtesy of Viettel</p> <p>HÀ NỘI — Two IT experts from Viettel Cyber Secu",
+            "url": "https://menafn.com/1104325564/ViettelExperts-WinAt-Worlds-Leading-Cyber-Attack-Contest",
+            "urlToImage": "https://menafn.com/includes/img/logo.jpg",
+            "publishedAt": "2022-06-05T11:15:00Z",
+            "content": "(MENAFN- EIN Presswire) \r\nVIETNAM, June 5 - \r\nIT experts at Viettel Cyber Security. Photo courtesy of Viettel\r\nHÀ NI Two IT experts from Viettel Cyber Security, a member of Viettel Group, won the Pwn… [+1974 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Bloomberg",
+            "title": "‘No longer sure bets’: Tech giants are dropping bad news daily",
+            "description": "The drumbeat continued yesterday, as Tesla Inc. Chief Executive Officer Elon Musk told employees the electric-vehicle maker needs to reduce its salaried workforce by 10% and pause hiring worldwide. Cryptocurrency exchange Coinbase Global Inc. also said it wil…",
+            "url": "https://economictimes.indiatimes.com/tech/technology/no-longer-sure-bets-tech-giants-are-dropping-bad-news-daily/articleshow/92019504.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-92019582,width-1070,height-580,imgsize-68700,overlay-ettech/photo.jpg",
+            "publishedAt": "2022-06-05T11:12:17Z",
+            "content": "From Seattle to Silicon Valley to Austin, a grim new reality is setting in across the tech landscape: a heady, decades-long era of rapid sales gains, boundless jobs growth and ever-soaring stock pric… [+7789 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Hdmotori.it"
+                "name": "Droider.ru"
             },
-            "author": "HDblog.it",
-            "title": "Musk insorge contro lo smart working in Tesla: \"Lavorate in sede o dimettetevi\"",
-            "description": "Dure mail del numero uno di Tesla ai suoi dipendenti.",
-            "url": "https://www.hdmotori.it/tesla/articoli/n556736/musk-no-smart-working-tesla/",
-            "urlToImage": "https://hd2.tudocdn.net/997949?w=1920",
-            "publishedAt": "2022-06-01T13:30:00Z",
-            "content": "Non si può dire che le abbia mandate a dire, Elon Musk, agli uomini di Tesla. I colleghi di electrek.com avrebbero messo le mani su due mail in cui il CEO che ha guadagnato di più nel 2021 obbliga di… [+2836 chars]"
+            "author": "aka_opex",
+            "title": "The Boring Company Илона Маска — Тоннели в Будущее. Разбор",
+            "description": "Кто из вас любит стоять в пробке? Если вам надо в час пик доехать до другого конца города — вы поедете на машине или на метро? Что-то мне кажется что ваш выбор падет именно на метро. Это тупо быстрее! Пробки — это вообще одна из самых больших проблем любого с…",
+            "url": "https://droider.ru/post/the-boring-company-ilona-maska-tonneli-v-budushhee-razbor-05-06-2022/",
+            "urlToImage": "https://droider.ru/wp-content/uploads/2022/06/preview-172-min.jpg",
+            "publishedAt": "2022-06-05T11:05:37Z",
+            "content": "?  — ? - . !\r\n — . — .  ! ?\r\n   : « : ! — , 200 . , Boring Company — !»\r\n . , — !\r\n «» !\r\n2017 . Boring Company, . ! ?\r\n , — . Boring Company — , !  - , , , !  , !\r\n? . ! , Boring Company , 10 !\r\n, .… [+968 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Seeking Alpha"
+                "name": "Teleprogramma.pro"
             },
-            "author": "Ahan Vashi",
-            "title": "Is QQQ A Buy Or Sell During The Dip? It's Complicated",
-            "description": "While QQQ surged ~7% last week, the tech-heavy ETF remains firmly entrenched in the bear market territory (-23% YTD). See if QQQ is a buy or sell.",
-            "url": "https://seekingalpha.com/article/4515681-qqq-buy-sell-during-dip",
-            "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1357629287/image_1357629287.jpg?io=getty-c-w750",
-            "publishedAt": "2022-06-01T13:30:00Z",
-            "content": "Khaosai Wongnatthakan/iStock via Getty Images\r\nIntroduction: Why Is QQQ Declining In 2022?\r\n Invesco's QQQ (NASDAQ:QQQ) is an exchange-traded fund that tracks the tech-heavy Nasdaq-100 index. Over th… [+9104 chars]"
+            "author": "Илья Богомолов",
+            "title": "Байден пожелал Маску удачи в его полете на Луну - TELEPROGRAMMA.PRO",
+            "description": "<ol><li>Байден пожелал Маску удачи в его полете на Луну  TELEPROGRAMMA.PRO\r\n</li><li>«Главное, о чем сейчас, вероятно, думают инвесторы – это о том, чтобы Маск заткнулся». Акции Tesla падают, инвесторы негодуют, а Илон Маск теряет миллиарды всего лишь из-за п…",
+            "url": "https://teleprogramma.pro/news/4237812-djo-bayden-pojelal-udachi-ilonu-masku-v-ego-puteshestvii-na-u3511/",
+            "urlToImage": "https://s3.cdn.teleprogramma.pro/wp-content/uploads/2022/06/249a196ca8bb8da955f21c852ae47526.jpg",
+            "publishedAt": "2022-06-05T11:01:24Z",
+            "content": ". - 10%. Tesla, Reuters.\r\n4 -, .\r\n , , , Ford (, , ), Intel 20 .\r\n , : «» , .\r\n , « , , , », « , ».\r\n« , , », .\r\n, , Twitter — , NASA SpaceX Artemis, : «, !»\r\n Telegram\r\n «» . , .\r\n, GoBro!\r\n « !» , … [+2 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Moneycontrol"
+                "name": "Decrypt"
             },
-            "author": "Moneycontrol News",
-            "title": "Moneycontrol Selects: Top stories this evening",
-            "description": "Our specially curated package of the most interesting articles of the day will help you stay at the top of your game.",
-            "url": "https://www.moneycontrol.com/news/business/moneycontrol-selects-top-stories-this-evening-35-8622641.html",
-            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2022/05/shutterstock_1204164946-770x433.jpg",
-            "publishedAt": "2022-06-01T13:26:49Z",
-            "content": "Here are the top stories this evening:\r\nED summons Sonia Gandhi, Rahul Gandhi for questioning in National Herald Case\r\nThe Enforcement Directorate  (ED) has  summoned Congress interim president Sonia… [+2367 chars]"
+            "author": "Tim Hakki",
+            "title": "This Week on Crypto Twitter: Elon Musk and Dogecoin Co-Creator Jackson Palmer Exchange Words",
+            "description": "Elsewhere, Vitalik Buterin ponders an anti-crypto letter sent to U.S. lawmakers, and New York's governor considers a two-year mining ban.",
+            "url": "https://decrypt.co/102060/this-week-on-crypto-twitter-elon-musk-and-dogecoin-co-creator-jackson-palmer-exchange-words",
+            "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/04/dogecoin-price-trading-gID_6.jpeg",
+            "publishedAt": "2022-06-05T11:01:02Z",
+            "content": "Illustration by Mitchell Preffer for Decrypt\r\nThe two most striking conversations this week on the world's largest microblogging platform were Elon Musk's beef with Dogecoin co-creator Jackson Palmer… [+6999 chars]"
         },
         {
             "source": {
-                "id": null,
-                "name": "WinFuture"
+                "id": "axios",
+                "name": "Axios"
             },
-            "author": "Witold Pryjda",
-            "title": "Elon Musk zu Angestellten: Kommt ins Büro oder ihr seid gefeuert",
-            "description": "Die Pandemie hat die Arbeitswelt verändert, das ist längst klar. Denn viele Unternehmen haben während der Lockdowns das Homeoffice eingeführt und die Erfahrungen sind auch so gut gewesen, dass die Firmen auch dabei bleiben - nicht so die Unternehmen von Elon …",
-            "url": "https://winfuture.de/news,129961.html",
-            "urlToImage": "https://i.wfcdn.de/teaser/1920/38372.jpg",
-            "publishedAt": "2022-06-01T13:26:00Z",
-            "content": "Die Pandemie hat die Arbeitswelt verändert, das ist längst klar. Denn viele Unternehmen haben während der Lockdowns das Homeoffice eingeführt und die Erfahrungen sind auch so gut gewesen, dass die Fi… [+1898 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sozcu.com.tr"
-            },
-            "author": "Sözcü",
-            "title": "Elon Musk, çalışanlarını ofise gelmedikleri takdirde kovmakla tehdit etti",
-            "description": "Uyguladığı sert çalışma koşullarıyla zaman zaman gündeme gelen Elon Musk, bu defa da uzaktan çalışmayı hedef aldı. Tesla CEOsu, şirketteki üst düzey personele, ofiste haftada en az 40 saat çalışmadıkları takdirde kovulacaklarını söyledi. Musk, uzaktan çalışma…",
-            "url": "https://www.sozcu.com.tr/2022/teknoloji/elon-musk-calisanlarini-ofise-gelmedikleri-takdirde-kovmakla-tehdit-etti-7168908/",
-            "urlToImage": "https://i01.sozcucdn.com/wp-content/uploads/2022/06/01/iecrop/elon_musk1-reuters_16_9_1654088902-670x371.jpg",
-            "publishedAt": "2022-06-01T13:25:01Z",
-            "content": "Tesla CEO'su Elon Musk, uzaktan çalma ile ilgili sert açklamalar yapt. Musk, Tesla çalanlarnn 40 saat ofiste çalmazlarsa kovulacaklarn söyledi.\r\n<ul><li>Yazlar büyüt</li><li>Yazlar küçült</li><li>Sta… [+3516 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Komputerswiat.pl"
-            },
-            "author": "Bartłomiej Sieja",
-            "title": "Elon Musk do pracowników Tesli: \"Koniec z pracą zdalną, minimum 40 godz. tygodniowo w biurze\"",
-            "description": "\"Każdy kto chce pracować zdalnie, musi spędzać w biurach Tesli co najmniej 40 godz. tygodniowo\" — grzmi z maili do kadry kierowniczej Elon Musk. Miliarder najwidoczniej nie widzi wielu zalet w pracy zdalnej i hybrydowej.",
-            "url": "https://www.komputerswiat.pl/aktualnosci/wydarzenia/elon-musk-do-pracownikow-tesli-koniec-z-praca-zdalna-minimum-40-godz-tygodniowo-w/0w5ylfs",
-            "urlToImage": "https://ocdn.eu/pulscms-transforms/1/e6FktkpTURBXy83NTJkZjZjODBhZDFlY2QwOTY1NjJiNjRhZDU3MTA5My5qcGeSlQMAA80D6M0CNJMFzQSwzQJ2",
-            "publishedAt": "2022-06-01T13:21:07Z",
-            "content": "W jednym z redditowych tematów pojawi si rzekomy mail, który mieli otrzyma biurowi pracownicy Tesli z kadr zarzdzajcych. Administracja portalu potwierdzia jego autentyczno u kilku niezalenych pracown… [+1313 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Freerepublic.com"
-            },
-            "author": "Reuters via Yahoo",
-            "title": "Musk memo to Tesla staff: return to office or leave company",
-            "description": "(Reuters) - Tesla Inc Chief Executive Elon Musk has asked employees to return to office or leave the company, according to a memo sent to staff that has been circulating on social media. \"Anyone who wishes to do remote work must be in the office for a minimum…",
-            "url": "https://freerepublic.com/focus/f-news/4067792/posts",
-            "urlToImage": null,
-            "publishedAt": "2022-06-01T13:20:50Z",
-            "content": "Skip to comments.\r\nMusk memo to Tesla staff: return to office or leave companyReuters via Yahoo ^\r\n | June 1, 2022\r\n | by Tiyashi Datta \r\nPosted on 06/01/2022 6:20:50 AM PDT by Oldeconomybuyer\r\n(Reut… [+2398 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Daily Mail"
-            },
-            "author": "Sam Tonkin",
-            "title": "Elon Musk reveals plans to open an all-night Tesla diner in Hollywood",
-            "description": "Visitors will be able to pay with the cryptocurrency Dogecoin if the proposals for the facility on Santa Monica Boulevard in Hollywood get the green light.",
-            "url": "https://www.dailymail.co.uk/sciencetech/article-10874601/Elon-Musk-reveals-plans-open-night-Tesla-diner-Hollywood.html",
-            "urlToImage": "https://i.dailymail.co.uk/1s/2022/06/01/13/58546093-0-image-a-45_1654086220456.jpg",
-            "publishedAt": "2022-06-01T13:19:43Z",
-            "content": "Elon Musk has revealed plans for an all-night Tesla diner that would include a drive-in cinema and charging station.\r\nIt will feature two 45-foot LED movie screens, indoor and outdoor seating, and 28… [+7144 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Corriere.it"
-            },
-            "author": "Giulia Cimpanelli",
-            "title": "Elon Musk contro lo smart working: il ceo di Tesla impone ai dipendenti 40 ore in presenza",
-            "description": "Il magnate ha mandato una mail ai suoi manager per ordinare il rientro al lavoro full time: »Chi non è d’accordo può lasciare Tesla»",
-            "url": "https://www.corriere.it/tecnologia/22_giugno_01/elon-musk-contro-smart-working-ceo-tesla-impone-dipendenti-40-ore-presenza-f0b470d6-e1a7-11ec-bb0d-bf3a1b8d46c7.shtml",
-            "urlToImage": "https://images2.corriereobjects.it/methode_image/socialshare/2022/06/01/7d250e88-e1ab-11ec-bb0d-bf3a1b8d46c7.jpg",
-            "publishedAt": "2022-06-01T13:16:35Z",
-            "content": "di Giulia CimpanelliIl magnate ha mandato una mail ai suoi manager per ordinare il rientro al lavoro full time: »Chi non è d’accordo può lasciare Tesla»\r\nLavorare tanto e duramente: per Elon Musk è c… [+1310 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Ixbt.com"
-            },
-            "author": "jin@ixbt.com (Jin)",
-            "title": "Работайте в офисе или увольняйтесь. Илон Маск выдвинул ультиматум сотрудникам Tesla",
-            "description": "Илон Маск, главный исполнительный директор Tesla, разослал сотрудникам компании письмо, в котором говорится о том, что теперь не имеют права работать удалённо. Точнее, можно работать и дома, но в офисе всё равно придётся быть не мене 40 часов в неделю. Любой,…",
-            "url": "https://www.ixbt.com/news/2022/06/01/rabotajte-v-ofise-ili-uvolnjajtes-ilon-mask-vydvinul-ultimatum-sotrudnikam-tesla.html",
-            "urlToImage": "https://www.ixbt.com/img/n1/news/2022/5/3/6d39acbc8c83dbe5a6283cff80128ccb_large.jpg",
-            "publishedAt": "2022-06-01T13:16:00Z",
-            "content": ", Tesla, , , . , , 40 .\r\n, , ( **) 40 Tesla. , .\r\n, Tesla, , .\r\n , - , , — . : « , ».\r\nSnapdragon 8 Plus Gen 1. 5"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "PRNewswire"
-            },
-            "author": null,
-            "title": "United States Electric Truck Markets, 2022-2030 - Opportunities with Increasing Demand for Long-Range Electric Trucks",
-            "description": "DUBLIN, June 1, 2022 /PRNewswire/ -- The \"U.S. Electric Truck Market Research Report: By Vehicle Type, Propulsion, Range, Battery Capacity, Application - Industry Size and Demand Forecast to 2030\" report has been added to ResearchAndMarkets.com's offering. Th…",
-            "url": "https://www.prnewswire.com/news-releases/united-states-electric-truck-markets-2022-2030---opportunities-with-increasing-demand-for-long-range-electric-trucks-301558907.html",
-            "urlToImage": "http://mma.prnewswire.com/media/539438/Research_and_Markets_Logo.jpg?p=facebook",
-            "publishedAt": "2022-06-01T13:15:00Z",
-            "content": "DUBLIN, June 1, 2022 /PRNewswire/ -- The \"U.S. Electric Truck Market Research Report: By Vehicle Type, Propulsion, Range, Battery Capacity, Application - Industry Size and Demand Forecast to 2030\" re… [+6540 chars]"
-        },
-        {
-            "source": {
-                "id": "the-washington-post",
-                "name": "The Washington Post"
-            },
-            "author": "Faiz Siddiqui",
-            "title": "Elon Musk's midas touch draws new investors to Twitter",
-            "description": "Silicon Valley investors are scrambling to get into the deal to buy Twitter as if the 16-year-old struggling company was a hot start-up. They are drawn to the cult of Elon Musk, one of the most successful entrepreneurs in the technology industry.",
-            "url": "https://www.washingtonpost.com/technology/2022/06/01/elon-musk-twitter-investors/",
-            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WDIZSA5GUJD7VG2CSI2T3CDB3E.jpg&w=1440",
-            "publishedAt": "2022-06-01T13:10:57Z",
-            "content": "Placeholder while article actions load\r\nA growing list of investors signing up to help fund the $44 billion takeover of Twitter are betting on one big thing: Elon Musk.\r\nThough Twitter has spent year… [+10528 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnik International"
-            },
-            "author": "Sputnik International",
-            "title": "'Not Acceptable': Elon Musk Threatens to Fire Tesla Executives if They Don't Stop Working From Home",
-            "description": "WASHINGTON (Sputnik) – Elon Musk has allegedly threatened to fire Tesla Inc. executive staff if they do not resume working from the office for at least 40 hours per week, Bloomberg reported on Wednesday.",
-            "url": "https://sputniknews.com/20220601/not-acceptable-elon-musk-threatens-to-fire-tesla-executives-if-they-dont-stop-working-from-home-1095921364.html",
-            "urlToImage": "https://cdnn1.img.sputniknews.com/images/sharing/article/eng/1095921364.jpg?10922002591654089036",
-            "publishedAt": "2022-06-01T13:10:35Z",
-            "content": "\"Anyone who wishes to do remote work must be in the office for a minimum (and I mean *minimum*) of 40 hours per week or depart Tesla. This is less than we ask of factory workers\", Bloomberg cited Mus… [+24 chars]"
+            "author": "Javier E. David",
+            "title": "Remote work may not be working any more",
+            "description": "The challenges of remote work are getting harder and harder to ignore, as employees and bosses alike grapple with the realities of indefinite separation from the office.The big picture: A growing number of corporate executives want to put an end to the work-f…",
+            "url": "https://www.axios.com/2022/06/05/work-from-home-elon-musk-remote-office-meetings",
+            "urlToImage": "https://images.axios.com/7TirbyMbQJV8rFIpfObrq_wKekY=/0x0:1920x1080/1366x768/2022/06/03/1654251857303.jpg",
+            "publishedAt": "2022-06-05T11:00:13Z",
+            "content": "The challenges of remote work are getting harder and harder to ignore, as employees and bosses alike grapple with the realities of indefinite separation from the office.\r\nThe big picture: A growing n… [+2718 chars]"
         }
     ]
 }
