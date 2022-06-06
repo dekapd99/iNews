@@ -1,266 +1,266 @@
 {
     "status": "ok",
-    "totalResults": 17449,
+    "totalResults": 17152,
     "articles": [
         {
             "source": {
-                "id": null,
-                "name": "Sostav.ru"
+                "id": "associated-press",
+                "name": "Associated Press"
             },
-            "author": "Sostav.ru",
-            "title": "Состояние Илона Маска сократилось на $17млрд из-за падений акций Tesla",
-            "description": "Акции компании упали на фоне объявления о сокращении сотрудников",
-            "url": "https://www.sostav.ru/publication/sostoyanie-ilona-maska-sokratilos-na-17-mlrd-iz-za-padenij-aktsij-tesla-54724.html",
-            "urlToImage": "https://www.sostav.ru/images/news/2022/06/05/preview/54724_social.jpg?rnd=937558",
-            "publishedAt": "2022-06-05T12:31:00Z",
-            "content": "Tesla $17 . ,   10% .   Reuters. \r\n  ,   « »   ,  , «   ». \r\n , . : 40          .     .\r\n, ,  .   .\r\n   -   Tesla  5%. $16,9 .     100000 ,    .\r\n     $216,8 ."
+            "author": "Tom Krisher",
+            "title": "MUSK FAKEOUT: Threatens to walk away from TWITTER deal...",
+            "description": "DETROIT (AP) — Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts. Lawyers for the Tesla and SpaceX CEO made the threat in a letter to Twitter dat…",
+            "url": "https://apnews.com/article/elon-musk-twitter-inc-spacex-technology-c371e7682d490b637fb6031d1f7e5d87",
+            "urlToImage": "https://storage.googleapis.com/afs-prod/media/6fc883cc68074694be8ee76de7c19ce2/3000.jpeg",
+            "publishedAt": "2022-06-06T14:22:37Z",
+            "content": "DETROIT (AP) Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.\r\nLawyers for the Tesl… [+3185 chars]"
         },
         {
             "source": {
-                "id": null,
-                "name": "Nep123.com"
-            },
-            "author": "NEP123 Reporter",
-            "title": "Musk’s Twitter deal is being opposed by advocacy groups who are attempting to stop it.",
-            "description": "A dozen advocacy groups are launching a new campaign Friday to stop Tesla CEO Elon Musk’s $44 billion purchase of Twitter, warning that if he is allowed to take control, he will weaken important safeguards on the platform. The Stop the Deal campaign, which wa…",
-            "url": "https://nep123.com/2022/06/05/musks-twitter-deal-is-being-opposed-by-advocacy-groups-who-are-attempting-to-stop-it/",
-            "urlToImage": "https://nep123.com/wp-content/uploads/2022/06/ooij2wvirjy2van1_1652065789.jpeg.jpg",
-            "publishedAt": "2022-06-05T12:26:33Z",
-            "content": "A dozen advocacy groups are launching a new campaign Friday to stop Tesla CEO Elon Musk’s $44 billion purchase of Twitter, warning that if he is allowed to take control, he will weaken important safe… [+4099 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Freerepublic.com"
-            },
-            "author": "Fox News",
-            "title": "Elon Musk asks why 'leaking' DOJ won't spill Epstein client list: 'Doesn't that seem odd?'",
-            "description": "Elon Musk took to Twitter Saturday to ask if anyone was bothered by how quiet the \"leaking\" Justice Department is when it comes to the Jeffrey Epstein and Ghislaine Maxwell. Musk, the CEO of Tesla and SpaceX, said the DOJ, which grew notoriety for leaking und…",
-            "url": "https://freerepublic.com/focus/f-news/4068754/posts",
-            "urlToImage": null,
-            "publishedAt": "2022-06-05T12:24:49Z",
-            "content": "Skip to comments.\r\nElon Musk asks why 'leaking' DOJ won't spill Epstein client list: 'Doesn't that seem odd?'Fox News ^\r\n | June 5, 2022\r\n | Lawrence Richard\r\nPosted on 06/05/2022 5:24:49 AM PDT by M… [+1839 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Businessinsider.com.pl"
-            },
-            "author": "Insider",
-            "title": "Zmierzch technologicznych bogów. Giganci z Doliny Krzemowej wyparują z rynku",
-            "description": "Niedługo będziemy świadkami czystki wśród bohaterów. W ciągu ostatnich 20 lat najzdolniejsze umysły Ameryki wyjechały na Zachód, by szukać nowych szans w Dolinie Krzemowej. Tłumaczyli nam, że nie chodzi im o zdobycie bogactwa, lecz o rozwiązanie palących prob…",
-            "url": "https://businessinsider.com.pl/twoje-pieniadze/praca/zmierzch-technologicznych-bogow-giganci-z-doliny-krzemowej-wyparuja-z-rynku/srbg7qc",
-            "urlToImage": "https://ocdn.eu/pulscms-transforms/1/TFbk9kpTURBXy8wNzc1ZWJlOTRmYTgwNzNhODliNmFjOWE2YTI3NjdlOC5wbmeSlQMAAM0DFM0BvJMFzQSwzQJ2gaEwAQ",
-            "publishedAt": "2022-06-05T12:19:00Z",
-            "content": "<ul><li>Przez ostatnie dwie dekady rynek nagradza rozwój nad stabilnoci, a liderzy z Doliny Krzemowej wykorzystali to na swoj korzy - pisze Linette Lopez z Insidera US</li><li>Przy uyciu tradycyjnych… [+14973 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Reuters",
-            "title": "Musk backtracks on job cuts, says Tesla salaried staff to be 'fairly flat'",
-            "description": "Elon Musk said that total headcount will increase over next 12 months, but number of salaried staff should be little changed, backtracking from an email saying that job cuts of 10% were needed",
-            "url": "https://www.business-standard.com/article/international/musk-backtracks-on-job-cuts-says-tesla-salaried-staff-to-be-fairly-flat-122060500566_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-05/21/full/1653103261-2256.jpg",
-            "publishedAt": "2022-06-05T12:14:00Z",
-            "content": "Tesla Inc Chief Executive Elon Musk said on Saturday that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little changed… [+2751 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Génération NT"
-            },
-            "author": "Christian D.",
-            "title": "Tesla : le Super Bad Feeling d'Elon Musk pourrait conduire à licencier 10% des effectifs",
-            "description": "Après avoir appelé au rappel des salariés au bureau, Elon Musk envisage de supprimer environ 10% de l'effectif de Tesla sous le coup d'un Super Bad Feeling à propos de l'économie.",
-            "url": "https://www.generation-nt.com/tesla-elon-musk-super-bad-feeling-suppression-emploi-actualite-2001874.html",
-            "urlToImage": "https://img.generation-nt.com/tesla-model-3_04B002D601657861.webp",
-            "publishedAt": "2022-06-05T12:10:01Z",
-            "content": "Tesla avait enchaîné les bons résultats en début d'année et avait généré de solides profits, semblant valider tous les efforts consentis depuis des années pour faire grimper la capacité de production… [+1645 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Naftemporiki.gr"
+                "id": "la-nacion",
+                "name": "La Nacion"
             },
             "author": null,
-            "title": "Έλον Μασκ: Οι υποσχέσεις που δεν τήρησε",
-            "description": "Πολλοί περιγράφουν τον πλουσιότερο άνθρωπο στον κόσμο, Έλον Μασκ, ως οραματιστή του οποίου οι προβλέψεις συνήθως πραγματοποιούνται. Ωστόσο, πολλές από τις δηλώσεις του θεωρούνται ως απλή προσπάθεια χειραγώγησης της αγοράς. Τα παραδείγματα πολλά.",
-            "url": "https://www.naftemporiki.gr/finance/story/1869876/elon-mask-oi-uposxeseis-pou-den-tirise",
-            "urlToImage": "https://www.naftemporiki.gr/fu/t/1869876/1080/568/0x0000000001d40d2a/2/1/elon-mask-oi-uposxeseis-tirise.jpg",
-            "publishedAt": "2022-06-05T12:06:46Z",
-            "content": "[email protected]\r\n , , . 96 Twitter   , , .\r\n, . :\r\n«» Twitter\r\n , . Twitter .\r\n «» . deal , . .\r\n Twitter   . , 9% Twitter , 10 . . , tweets , .\r\n, , , .  Business Insider South Africa  2018, Tiffa… [+782 chars]"
+            "title": "Musk amenaza con retirar oferta de compra de Twitter",
+            "description": "Musk amenaza con retirar oferta de compra de Twitter",
+            "url": "https://www.lanacion.com.ar/agencias/musk-amenaza-con-retirar-oferta-de-compra-de-twitter-nid06062022/",
+            "urlToImage": "https://resizer.glanacion.com/resizer/fqVm70kRRFozKtr6cfss9tpm2nU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/5DU5DGECRZGOVATRUXYLWSILF4",
+            "publishedAt": "2022-06-06T14:20:34Z",
+            "content": "DETROIT (AP) Elon Musk amenazó el lunes con retirar su oferta de 44.000 millones de dólares para adquirir Twitter, y acusó a la compañía de negarse a darle información sobre sus cuentas de usuarios f… [+972 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "KOLR - OzarksFirst.com"
+                "name": "Faz.net"
             },
-            "author": "iSeeCars, Nexstar Media Wire",
-            "title": "The most and least expensive cities to buy electric cars",
-            "description": "Due to regional used car price variations, budget-minded used car shoppers who are willing to travel can increase their chances of finding a discount on electric cars.",
-            "url": "https://www.ozarksfirst.com/local-news/national-news/the-most-and-least-expensive-cities-to-buy-electric-cars/",
-            "urlToImage": "https://www.ozarksfirst.com/wp-content/uploads/sites/65/2022/06/Tesla-Model-S.jpg?w=1280",
-            "publishedAt": "2022-06-05T12:00:49Z",
-            "content": "(iSeeCars) – Although they have fallen in recent months, used car prices are still significantly higher than they were a year ago as a result of the ongoing microchip shortage. Meanwhile, gas prices … [+5615 chars]"
+            "author": "dpa",
+            "title": "Geplante Übernahme: Musk wirft Twitter Bruch der Übernahme-Bedingungen vor",
+            "description": "Steht der milliardenschwere Deal vor dem Aus? Twitter halte die eingeforderten Daten zu Spam- und Fake-Nutzerkonten auf der Plattform zurück, so der Vorwurf. Der Tesla-Chef droht damit, die Übernahme abzublasen.",
+            "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/musk-wirft-twitter-bruch-der-uebernahme-bedingungen-vor-18084271.html",
+            "urlToImage": "https://media1.faz.net/ppmedia/aktuell/feuilleton/2816241823/1.8084273/facebook_teaser/tesla-chef-elon-musk.jpg",
+            "publishedAt": "2022-06-06T14:14:16Z",
+            "content": "Elon Musk hat dem Twitter-Konzern einen Bruch der Bedingungen für die milliardenschwere Übernahme des Kurznachrichtendienstes vorgeworfen. In einem offenen Brief seiner Anwälte vom Montag hieß es, Tw… [+923 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ArkLaTexHomepage"
+            },
+            "author": "The Associated Press via Nexstar Media Wire",
+            "title": "Musk threatens to end $44 billion Twitter deal",
+            "description": "Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.",
+            "url": "https://www.arklatexhomepage.com/news/u-s-world/musk-threatens-to-end-44-billion-twitter-deal/",
+            "urlToImage": "https://www.arklatexhomepage.com/wp-content/uploads/sites/5/2022/06/muskelon_050222_ap-Evan-Agostini-Invision_musk.jpg?w=1280",
+            "publishedAt": "2022-06-06T14:12:37Z",
+            "content": "DETROIT (AP) Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.\r\nLawyers for the Tesl… [+2305 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WSLS 10"
+            },
+            "author": "Tom Krisher, Associated Press",
+            "title": "Musk threatens to walk away from Twitter deal",
+            "description": "Elon Musk is threatening to end his $44 billion agreement to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.",
+            "url": "https://www.wsls.com/business/2022/06/06/musk-threatens-to-walk-away-from-twitter-deal/",
+            "urlToImage": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/5J5XO2OHYVA45B44UBRHBL6EVA.jpg?_a=ATAK9d60",
+            "publishedAt": "2022-06-06T14:12:30Z",
+            "content": "DETROIT Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.\r\nLawyers for the Tesla and… [+3336 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Challenges"
+            },
+            "author": "Challenges.fr",
+            "title": "Twitter: Elon Musk évoque un possible retrait de son offre",
+            "description": "Elon Musk pourrait finalement retirer son offre de rachat de Twitter, accusant le réseau social de ne pas être transparent sur le nombre de faux comptes.",
+            "url": "https://www.challenges.fr/high-tech/elon-musk-accuse-twitter-de-retention-d-informations-evoque-un-possible-retrait-de-son-offre_815995",
+            "urlToImage": "https://www.challenges.fr/assets/img/2022/06/03/cover-r4x3w1000-629e0b3d58f38-941408626292382111901f492e41c0dceb94ef1b-jpg.jpg",
+            "publishedAt": "2022-06-06T14:12:14Z",
+            "content": "Elon Musk affirme dans un document boursier publié lundi que Twitter \"résiste activement\" à ses demandes d'informations sur les spams et les faux comptes, ce qu'il considère comme une violation manif… [+2273 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Www.ad.nl"
+            },
+            "author": "Techredactie",
+            "title": "Musk dreigt weg te lopen van Twitter-deal",
+            "description": "Elon Musk vindt dat Twitter de overeenkomst voor een overname voor 44 miljard dollar heeft geschonden door hem bepaalde informatie over spam en nepaccounts niet te verstrekken. Volgens de Tesla-topman zou hij hierdoor de deal kunnen ‘beëindigen’.",
+            "url": "https://www.ad.nl/tech/musk-dreigt-weg-te-lopen-van-twitter-deal~a799ab88/",
+            "urlToImage": "https://images0.persgroep.net/rcs/u7CV9GHb1staPFWusbJ0lO3VcUA/diocontent/217275091/_focus/0.39/0.54/_fill/1200/630/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7",
+            "publishedAt": "2022-06-06T14:12:11Z",
+            "content": "Dat staat in een nieuw document dat de bekende ondernemer heeft ingediend bij de Amerikaanse beurstoezichthouder SEC. Daarin benadrukt Musk ook nog altijd het recht te hebben om van de overname van T… [+1079 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Jon Fingas",
+            "title": "Elon Musk threatens to back out of Twitter deal over bot estimates",
+            "description": "Elon Musk still isn't happy with Twitter's stance on bots and other fake accounts. As Bloombergreports, Musk has amended an SEC filing to claim Twitter is committing a \"material breach\" of merger terms by allegedly refusing to disclose enough information abou…",
+            "url": "https://www.engadget.com/elon-musk-twitter-bots-merger-deal-breach-141116883.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-05/8c05a890-e59d-11ec-9ccf-86cc8c02ff4a",
+            "publishedAt": "2022-06-06T14:11:16Z",
+            "content": "Elon Musk still isn't happy with Twitter's stance on bots and other fake accounts. As Bloombergreports, Musk has amended an SEC filing to claim Twitter is committing a \"material breach\" of merger ter… [+1288 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "WGN TV Chicago"
             },
-            "author": "iSeeCars, Nexstar Media Wire",
-            "title": "The most and least expensive cities to buy electric cars",
-            "description": "Due to regional used car price variations, budget-minded used car shoppers who are willing to travel can increase their chances of finding a discount on electric cars.",
-            "url": "https://wgntv.com/news/nexstar-media-wire/the-most-and-least-expensive-cities-to-buy-electric-cars/",
-            "urlToImage": "https://wgntv.com/wp-content/uploads/sites/5/2022/06/Tesla-Model-S.jpg?w=1280",
-            "publishedAt": "2022-06-05T12:00:42Z",
-            "content": "(iSeeCars) – Although they have fallen in recent months, used car prices are still significantly higher than they were a year ago as a result of the ongoing microchip shortage. Meanwhile, gas prices … [+5637 chars]"
+            "author": "The Associated Press via Nexstar Media Wire",
+            "title": "Musk threatens to end $44 billion Twitter deal",
+            "description": "Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.",
+            "url": "https://wgntv.com/news/musk-threatens-to-end-44-billion-twitter-deal/",
+            "urlToImage": "https://wgntv.com/wp-content/uploads/sites/5/2022/06/muskelon_050222_ap-Evan-Agostini-Invision_musk.jpg?w=1280",
+            "publishedAt": "2022-06-06T14:10:55Z",
+            "content": "DETROIT (AP) Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.\r\nLawyers for the Tesl… [+2327 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CNA"
+                "name": "Tech Xplore"
             },
-            "author": null,
-            "title": "Musk backtracks on job cuts, says Tesla salaried staff to be 'fairly flat'",
-            "description": "Tesla Chief Executive Elon Musk said on Saturday (Jun 4) that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little changed, backtracking from an email just two days ago saying th…",
-            "url": "https://www.channelnewsasia.com/business/elon-musk-tesla-backtracks-job-cuts-salaried-staff-fairly-flat-twitter-2728381",
-            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--1tEi0wN1--/c_crop,h_562,w_1000,x_0,y_64/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/musk_twitter_stock_sale_12290.jpg?itok=w1HeJRXX",
-            "publishedAt": "2022-06-05T11:58:00Z",
-            "content": "Tesla Chief Executive Elon Musk said on Saturday (Jun 4) that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little cha… [+1310 chars]"
+            "author": "Tom Krisher and Matt O'brien",
+            "title": "Musk threatens to walk away from Twitter deal",
+            "description": "Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.",
+            "url": "https://techxplore.com/news/2022-06-musk-threatens-twitter.html",
+            "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2022/musk-threatens-to-walk.jpg",
+            "publishedAt": "2022-06-06T14:10:33Z",
+            "content": "Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.\r\nLawyers for the Tesla and SpaceX … [+2851 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CNA"
+                "name": "Challenges"
             },
-            "author": null,
-            "title": "Musk backtracks on job cuts, says Tesla salaried staff to be 'fairly flat'",
-            "description": "Tesla Chief Executive Elon Musk said on Saturday (Jun 4) that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little changed, backtracking from an email just two days ago saying th…",
-            "url": "https://www.channelnewsasia.com/business/musk-backtracks-job-cuts-says-tesla-salaried-staff-be-fairly-flat-2728381",
-            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--Ly1x8hex--/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2022-06-05t115842z_3_lynxmpei530bq_rtroptp_3_tesla-jobs.jpg?itok=6cHbpkbj",
-            "publishedAt": "2022-06-05T11:58:00Z",
-            "content": "Tesla Chief Executive Elon Musk said on Saturday (Jun 4) that the electric vehicle maker's total headcount will increase over the next 12 months, but the number of salaried staff should be little cha… [+1311 chars]"
+            "author": "Reuters",
+            "title": "Elon Musk menace d'abandonner son projet de rachat de Twitter",
+            "description": "(Reuters) - Elon Musk a averti lundi qu'il pourrait renoncer à son offre d'achat de 44 milliards de dollars (41,1 milliards d'euros) sur Twitter si le réseau social ne lui fournissait pas les données qu'il réclame sur les faux comptes d'utilisateurs. \nDans un…",
+            "url": "https://www.challenges.fr/high-tech/elon-musk-menace-d-abandonner-son-projet-de-rachat-de-twitter_815993",
+            "urlToImage": "https://www.challenges.fr/assets/img/2022/06/06/cover-r4x3w1000-629e0ac9c7f39-file-photo-illustration-shows-elon-musk-image-on-smartphone.jpg",
+            "publishedAt": "2022-06-06T14:09:31Z",
+            "content": "(Reuters) - Elon Musk a averti lundi qu'il pourrait renoncer à son offre d'achat de 44 milliards de dollars (41,1 milliards d'euros) sur Twitter si le réseau social ne lui fournissait pas les données… [+2172 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Slashdot.org"
+                "name": "seattlepi.com"
             },
-            "author": "feedfeeder",
-            "title": "Elon Musk Opens Door To A Tesla Talent Exodus, Despite Golden Handcuffs - NDTV Profit",
-            "description": "Elon Musk Opens Door To A Tesla Talent Exodus, Despite Golden HandcuffsNDTV Profit After emailing employees about job cuts at Tesla, Elon Musk says the total headcount at the company will increaseYahoo News Elon Musk Just Announced Some Very Big Changes, and …",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=162650182",
-            "urlToImage": null,
-            "publishedAt": "2022-06-05T11:52:39Z",
-            "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way."
+            "author": "Associated Press",
+            "title": "A timeline of billionaire Elon Musk's bid to control Twitter",
+            "description": "Elon Musk threatened Monday to call off his $44 billion acquisition of Twitter, accusing the company of refusing to give him information about spam bot accounts.\nHere’s a look at some of what’s transpired between the billionaire Tesla CEO and the social media…",
+            "url": "https://www.seattlepi.com/news/article/A-timeline-of-billionaire-Elon-Musk-s-bid-to-17222102.php",
+            "urlToImage": "https://s.hdnux.com/photos/01/26/05/22/22566028/3/rawImage.jpg",
+            "publishedAt": "2022-06-06T14:07:26Z",
+            "content": "Elon Musk threatened Monday to call off his $44 billion acquisition of Twitter, accusing the company of refusing to give him information about spam bot accounts.Heres a look at some of whats transpir… [+2356 chars]"
         },
         {
             "source": {
-                "id": "svenska-dagbladet",
-                "name": "Svenska Dagbladet"
+                "id": "business-insider",
+                "name": "Business Insider"
             },
-            "author": "Henrik Samuelsson/TT",
-            "title": "Musk: Tiden mogen för EU-beslut om autopilot",
-            "description": "En del bilar är snart så bra på att köra själva att EU ska kunna besluta om nya regler. Det hävdar Tesla-chefen Elon Musk.",
-            "url": "https://www.svd.se/a/QyvBnV/musk-tiden-mogen-for-eu-beslut-om-autopilot",
-            "urlToImage": "https://svd.vgc.no/v2/images/7ccee445-ea65-43e9-9a35-0932fe0df951?h=630&q=80&upscale=true&w=1200&s=a9d474401a0c6008a6c336056ac9dea03d2f9b0f",
-            "publishedAt": "2022-06-05T11:40:12Z",
-            "content": "Bilarna från den amerikanska tillverkaren har en autopilot som ska möjliggöra att de navigerar själva i alla trafikmiljöer. Än så länge är dock tekniken bara på teststadiet, och endast utvalda kunder… [+245 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Wykop.pl"
-            },
-            "author": "ntdc",
-            "title": "Elon Musk: Tesla Bot nadchodzi",
-            "description": "Tesla ma działający prototyp humanoidalnego robota Optimus.",
-            "url": "https://www.wykop.pl/link/6689329/elon-musk-tesla-bot-nadchodzi/",
-            "urlToImage": "https://www.wykop.pl/cdn/c3397993/link_165442830162fIkpW2t7PxuOW1yRp76G,w1200h627f.jpg",
-            "publishedAt": "2022-06-05T11:26:50Z",
-            "content": "Drogi Wykopowiczu\r\nw zaczonym linku do Polityki Prywatnoci przypominamy podstawowe informacje z zakresu przetwarzania danych osobowych dostarczanych przez Ciebie podczas korzystania z naszego serwisu… [+108 chars]"
+            "author": "tlevin@insider.com (Tim Levin)",
+            "title": "Elon Musk says he can cancel Twitter deal because the company is 'actively resisting' his efforts to study fake accounts",
+            "description": "Elon Musk originally agreed to buy the social network for $43 billion in April. The deal has gone anything but smoothly.",
+            "url": "https://www.businessinsider.com/elon-musk-twitter-deal-actively-resisting-spam-bots-walk-away-2022-6",
+            "urlToImage": "https://i.insider.com/629e037f7bc6a80018b671e0?width=1200&format=jpeg",
+            "publishedAt": "2022-06-06T14:07:07Z",
+            "content": "Elon Musk may be ready to walk away from his deal to buy Twitter after accusing the social network of stonewalling negotiations, according to a letter sent by his lawyers Monday.\r\nThe saga's latest k… [+2149 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "MENAFN.COM"
+                "name": "heise online"
             },
-            "author": "MENAFN",
-            "title": "Viettel Experts Win At World's Leading Cyber-Attack Contest",
-            "description": "<p>VIETNAM, June 5 - </p> \n<p>IT experts at Viettel Cyber Security. Photo courtesy of Viettel</p> <p>HÀ NỘI — Two IT experts from Viettel Cyber Secu",
-            "url": "https://menafn.com/1104325564/ViettelExperts-WinAt-Worlds-Leading-Cyber-Attack-Contest",
-            "urlToImage": "https://menafn.com/includes/img/logo.jpg",
-            "publishedAt": "2022-06-05T11:15:00Z",
-            "content": "(MENAFN- EIN Presswire) \r\nVIETNAM, June 5 - \r\nIT experts at Viettel Cyber Security. Photo courtesy of Viettel\r\nHÀ NI Two IT experts from Viettel Cyber Security, a member of Viettel Group, won the Pwn… [+1974 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Bloomberg",
-            "title": "‘No longer sure bets’: Tech giants are dropping bad news daily",
-            "description": "The drumbeat continued yesterday, as Tesla Inc. Chief Executive Officer Elon Musk told employees the electric-vehicle maker needs to reduce its salaried workforce by 10% and pause hiring worldwide. Cryptocurrency exchange Coinbase Global Inc. also said it wil…",
-            "url": "https://economictimes.indiatimes.com/tech/technology/no-longer-sure-bets-tech-giants-are-dropping-bad-news-daily/articleshow/92019504.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-92019582,width-1070,height-580,imgsize-68700,overlay-ettech/photo.jpg",
-            "publishedAt": "2022-06-05T11:12:17Z",
-            "content": "From Seattle to Silicon Valley to Austin, a grim new reality is setting in across the tech landscape: a heady, decades-long era of rapid sales gains, boundless jobs growth and ever-soaring stock pric… [+7789 chars]"
+            "author": "Andreas Wilkens",
+            "title": "Musk: Twitter bricht mit seinem Auskunftsverhalten Übernahme-Bedingungen",
+            "description": "Weil Twitter nicht seinen Verpflichtungen aus dem Übernahmevertrag nachkomme, behält sich Elon Musk vor, die Transaktion abzublasen.",
+            "url": "https://www.heise.de/news/Musk-Twitter-bricht-mit-seinem-Auskunftsverhalten-Uebernahme-Bedingungen-7132748.html",
+            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/5/5/5/5/1/7/shutterstock_2143053743-58929f0065590d66.jpg",
+            "publishedAt": "2022-06-06T14:07:00Z",
+            "content": "Elon Musk hat Twitter einen Bruch der Bedingungen für die milliardenschwere Übernahme des Kurzmitteilungsdienstes vorgeworfen. In einem offenen Brief seiner Anwälte vom Montag hieß es, Twitter weiger… [+1834 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Droider.ru"
+                "name": "Challenges"
             },
-            "author": "aka_opex",
-            "title": "The Boring Company Илона Маска — Тоннели в Будущее. Разбор",
-            "description": "Кто из вас любит стоять в пробке? Если вам надо в час пик доехать до другого конца города — вы поедете на машине или на метро? Что-то мне кажется что ваш выбор падет именно на метро. Это тупо быстрее! Пробки — это вообще одна из самых больших проблем любого с…",
-            "url": "https://droider.ru/post/the-boring-company-ilona-maska-tonneli-v-budushhee-razbor-05-06-2022/",
-            "urlToImage": "https://droider.ru/wp-content/uploads/2022/06/preview-172-min.jpg",
-            "publishedAt": "2022-06-05T11:05:37Z",
-            "content": "?  — ? - . !\r\n — . — .  ! ?\r\n   : « : ! — , 200 . , Boring Company — !»\r\n . , — !\r\n «» !\r\n2017 . Boring Company, . ! ?\r\n , — . Boring Company — , !  - , , , !  , !\r\n? . ! , Boring Company , 10 !\r\n, .… [+968 chars]"
+            "author": "Reuters",
+            "title": "Wall Street rebondit, les valeurs chinoises et les \"techs\" en pointe",
+            "description": "PARIS (Reuters) - La Bourse de New York a ouvert en hausse lundi et efface une bonne partie des pertes subies lors de la séance précédente en profitant d'un regain général d'optimisme sur la conjoncture économique et du rebond marqué des valeurs chinoises cot…",
+            "url": "https://www.challenges.fr/finance-et-marche/wall-street-rebondit-les-valeurs-chinoises-et-les-techs-en-pointe_815994",
+            "urlToImage": "https://www.challenges.fr/assets/img/2022/06/06/cover-r4x3w1000-629e0ad2076cf-wall-street-rebondit-les-valeurs-chinoises-et-les-techs.jpg",
+            "publishedAt": "2022-06-06T14:04:35Z",
+            "content": "PARIS (Reuters) - La Bourse de New York a ouvert en hausse lundi et efface une bonne partie des pertes subies lors de la séance précédente en profitant d'un regain général d'optimisme sur la conjonct… [+2102 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "ABC News",
+            "title": "A timeline of billionaire Elon Musk's bid to control Twitter",
+            "description": "Elon Musk threatened Monday to call off his $44 billion acquisition of Twitter, accusing the company of refusing to give him information about spam bot accounts",
+            "url": "https://abcnews.go.com/Technology/wireStory/timeline-billionaire-elon-musks-bid-control-twitter-85212491",
+            "urlToImage": "https://s.abcnews.com/images/Technology/WireAP_a87e205661bb48eb8190591c357149fe_16x9_992.jpg",
+            "publishedAt": "2022-06-06T14:04:08Z",
+            "content": "Elon Musk threatened Monday to call off his $44 billion acquisition of Twitter, accusing the company of refusing to give him information about spam bot accounts.\r\nHeres a look at some of whats transp… [+2362 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Teleprogramma.pro"
+                "name": "Boston Herald"
             },
-            "author": "Илья Богомолов",
-            "title": "Байден пожелал Маску удачи в его полете на Луну - TELEPROGRAMMA.PRO",
-            "description": "<ol><li>Байден пожелал Маску удачи в его полете на Луну  TELEPROGRAMMA.PRO\r\n</li><li>«Главное, о чем сейчас, вероятно, думают инвесторы – это о том, чтобы Маск заткнулся». Акции Tesla падают, инвесторы негодуют, а Илон Маск теряет миллиарды всего лишь из-за п…",
-            "url": "https://teleprogramma.pro/news/4237812-djo-bayden-pojelal-udachi-ilonu-masku-v-ego-puteshestvii-na-u3511/",
-            "urlToImage": "https://s3.cdn.teleprogramma.pro/wp-content/uploads/2022/06/249a196ca8bb8da955f21c852ae47526.jpg",
-            "publishedAt": "2022-06-05T11:01:24Z",
-            "content": ". - 10%. Tesla, Reuters.\r\n4 -, .\r\n , , , Ford (, , ), Intel 20 .\r\n , : «» , .\r\n , « , , , », « , ».\r\n« , , », .\r\n, , Twitter — , NASA SpaceX Artemis, : «, !»\r\n Telegram\r\n «» . , .\r\n, GoBro!\r\n « !» , … [+2 chars]"
+            "author": "Associated Press",
+            "title": "Elon Musk threatens to walk away from Twitter deal",
+            "description": "Lawyers for the Tesla and SpaceX CEO say that based on Twitter’s latest correspondence, Musk believes the company is resisting and thwarting his information rights under the April merger agreement.…",
+            "url": "https://www.bostonherald.com/2022/06/06/musk-threatens-to-walk-away-from-twitter-deal/",
+            "urlToImage": "https://www.bostonherald.com/wp-content/uploads/2022/06/Musk-Twitter_34609-1.jpg?w=1024&h=682",
+            "publishedAt": "2022-06-06T14:03:53Z",
+            "content": "DETROIT Elon Musk is threatening to walk away from his $44 billion bid to buy Twitter, accusing the company of refusing to give him information about its spam bot accounts.\r\nLawyers for the Tesla and… [+2350 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Decrypt"
+                "name": "Presse-citron"
             },
-            "author": "Tim Hakki",
-            "title": "This Week on Crypto Twitter: Elon Musk and Dogecoin Co-Creator Jackson Palmer Exchange Words",
-            "description": "Elsewhere, Vitalik Buterin ponders an anti-crypto letter sent to U.S. lawmakers, and New York's governor considers a two-year mining ban.",
-            "url": "https://decrypt.co/102060/this-week-on-crypto-twitter-elon-musk-and-dogecoin-co-creator-jackson-palmer-exchange-words",
-            "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/04/dogecoin-price-trading-gID_6.jpeg",
-            "publishedAt": "2022-06-05T11:01:02Z",
-            "content": "Illustration by Mitchell Preffer for Decrypt\r\nThe two most striking conversations this week on the world's largest microblogging platform were Elon Musk's beef with Dogecoin co-creator Jackson Palmer… [+6999 chars]"
+            "author": "Stéphane Ficca",
+            "title": "Pour Ford, l’avenir de la vente automobile est en ligne",
+            "description": "Ford envisage la vente exclusivement en ligne de ses véhicules, et confirme la création de milliers de nouveaux emplois.",
+            "url": "https://www.presse-citron.net/pour-ford-lavenir-de-la-vente-automobile-est-en-ligne/",
+            "urlToImage": "https://www.presse-citron.net/app/uploads/2022/01/Ford-Bourse-performance.jpg",
+            "publishedAt": "2022-06-06T14:00:36Z",
+            "content": "A l’instar d’autres constructeurs automobiles (comme FIAT pour ne citer que lui), Ford continue de tracer sa route vers le 100% électrique, et le PDG du groupe Jim Farley semble décidé à s’inspirer d… [+1804 chars]"
         },
         {
             "source": {
-                "id": "axios",
-                "name": "Axios"
+                "id": null,
+                "name": "Donanimhaber.com"
             },
-            "author": "Javier E. David",
-            "title": "Remote work may not be working any more",
-            "description": "The challenges of remote work are getting harder and harder to ignore, as employees and bosses alike grapple with the realities of indefinite separation from the office.The big picture: A growing number of corporate executives want to put an end to the work-f…",
-            "url": "https://www.axios.com/2022/06/05/work-from-home-elon-musk-remote-office-meetings",
-            "urlToImage": "https://images.axios.com/7TirbyMbQJV8rFIpfObrq_wKekY=/0x0:1920x1080/1366x768/2022/06/03/1654251857303.jpg",
-            "publishedAt": "2022-06-05T11:00:13Z",
-            "content": "The challenges of remote work are getting harder and harder to ignore, as employees and bosses alike grapple with the realities of indefinite separation from the office.\r\nThe big picture: A growing n… [+2718 chars]"
+            "author": "İlkcan Girgin",
+            "title": "Elon Musk açıkladı: Çok gezegenli yaşam için 1000'den fazla Starship üretilecek",
+            "description": "Ünlü milyarder Elon Musk, SpaceX'in gelecek planları hakkında yeni bilgiler paylaştı. SpaceX kurucusu, çok gezegenli yaşam için 1000'den fazla Starship üretmeyi planlıyor.",
+            "url": "https://www.donanimhaber.com/elon-musk-milyonlarca-insani-mars-a-tasiyacak--149300",
+            "urlToImage": "https://www.donanimhaber.com/images/images/haber/149300/600x338elon-musk-milyonlarca-insani-mars-a-tasiyacak.jpg",
+            "publishedAt": "2022-06-06T14:00:00Z",
+            "content": "a').click()\"&gt;Tam Boyutta Gör\r\nSpaceX kurucusu ve Tesla CEO'su Elon Musk, gelecekteki Mars planlar hakknda yeni açklamalarda bulundu. Daha öncesinde 2020 ylndan itibaren her yl 100 Starship roketi … [+1287 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ntv.com.tr"
+            },
+            "author": "NTV",
+            "title": "Elon Musk'tan Twitter'a tehdit: Fesih hakkımı saklı tutuyorum",
+            "description": "Tesla ve SpaceX CEO'su Elon Musk,  sosyal medya devi Twitter'ın kendisine bot hesaplar hakkında yeterince bilgilendirmediğini öne sürerek, 44 milyar dolarlık devralma anlaşmasını feshetmekle tehdit etti. Twitter'dan henüz konuya ilişkin bir açıklama yapılamaz…",
+            "url": "https://www.ntv.com.tr/galeri/teknoloji/elon-musktan-twittera-tehdit-fesih-hakkimi-sakli-tutuyorum,92N9MN91QUyISI8H-Xlzyg",
+            "urlToImage": "https://cdn1.ntv.com.tr/gorsel/SH2ZTmRbUUyfNAVzn1MP2A.jpg?width=1080&mode=crop&scale=both",
+            "publishedAt": "2022-06-06T14:00:00Z",
+            "content": "Tesla ve SpaceX CEO'su Elon Musk, sosyal medya devi Twitter'ın kendisine bot hesaplar hakkında yeterince bilgilendirmediğini öne sürerek, 44 milyar dolarlık devralma anlaşmasını feshetmekle tehdit et… [+1815 chars]"
         }
     ]
 }

@@ -22,7 +22,7 @@ struct Article {
     let description: String?
     let urlToImage: String?
     
-    // komputasi handler
+    // komputasi property handler
     var authorText: String {
         author ?? ""
     }
@@ -77,6 +77,3 @@ struct Source {
 }
 extension Source: Codable{}
 extension Source: Equatable{}
-
-
-
