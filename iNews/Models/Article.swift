@@ -7,6 +7,8 @@
 
 import Foundation
 
+fileprivate let relativeDateFormatter = RelativeDateTimeFormatter()
+
 // Data Article ("articles") dari news.json
 struct Article {
     
@@ -31,6 +33,11 @@ struct Article {
         description ?? ""
     }
     
+    // computed property sumber news dan jam berita di publish
+    var captionText: String {
+        "\(source.name) ・ \(relativeDateFormatter.localizedString(for: publishedAt, relativeTo: Date())) "
+    }
+    
     var articleURL: URL {
         URL(string: url)!
     }
@@ -44,7 +51,7 @@ struct Article {
     }
 }
 
-// decoding data dari API dan untuk simpan ke Bookmark
+// encode & decode data dari API dan untuk simpan ke Bookmark
 extension Article: Codable{}
 extension Article: Equatable{}
 extension Article: Identifiable{
@@ -55,7 +62,7 @@ extension Article: Identifiable{
 
 
 extension Article {
-    // untuk menampung static property preview data
+    // untuk menampung static computed property preview data berisikan array dari Article
     static var previewData: [Article]{
         let previewDataURL = Bundle.main.url(forResource: "news", withExtension: "json")!
         let data = try! Data(contentsOf: previewDataURL)

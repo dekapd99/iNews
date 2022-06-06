@@ -15,6 +15,7 @@ struct NewsAPIResponse: Decodable {
     let articles: [Article]? // optional karena bisa tidak menampilkan apa apa kalo codingnya salah
     
     // Error handling untuk Code API Response News
+    // optional karena bakal muncul ketika error saja
     let code: String?
     let message: String?
     

@@ -7,10 +7,16 @@
 
 import SwiftUI
 
+// Testing Ground Simulator
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        // test ArticleListView
+        ArticleListView(articles: Article.previewData)
+        
+        // initialization code
+//        Text("Hello, world!")
+//            .padding()
     }
 }
 

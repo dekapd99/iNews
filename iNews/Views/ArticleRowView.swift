@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// frontend: tampilan satu artikel
 struct ArticleRowView: View {
     
     // menggunakan file Article dari folder Models
@@ -42,12 +43,54 @@ struct ArticleRowView: View {
             }
             .frame(minHeight: 200, maxHeight: 300)
             .background(Color.gray.opacity(0.3))
+            .clipped()
             
-            VStack(alignment: .leading, spacing: 3) {
+            VStack(alignment: .leading, spacing: 8) {
                 Text(article.title)
+                    .font(.headline)
+                    .lineLimit(3)
+                
+                Text(article.descriptionText)
+                    .font(.subheadline)
+                    .lineLimit(2)
+                
+                HStack {
+                    Text(article.captionText)
+                        .lineLimit(1)
+                        .foregroundColor(.secondary)
+                        .font(.caption)
+                    
+                    Spacer()
+                    
+                    // Bookmark button
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "bookmark")
+                    }
+                    .buttonStyle(.bordered)
+                    
+                    // Share Button
+                    Button {
+                        presentShareSheet(url: article.articleURL)
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .buttonStyle(.bordered)
+                }
             }
             .padding([.horizontal, .bottom])
         }
+    }
+}
+
+extension View {
+    
+    func presentShareSheet(url: URL) {
+        let activityVC = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        (UIApplication.shared.connectedScenes.first as? UIWindowScene)? .keyWindow?
+            .rootViewController?
+            .present(activityVC, animated: true)
     }
 }
 
