@@ -37,9 +37,16 @@ struct ArticleListView: View {
 }
 
 struct ArticleListView_Previews: PreviewProvider {
+    
+    // sharing fitur bookmark diseluruh project folder dengan @StateObject secara Environment Object
+    // kalo gak dimasukkin kesini dalam bentuk static bakalan aplikasi crash
+    @StateObject static var articleBookmarkVM = ArticleNewsViewModel()
+    
     static var previews: some View {
         NavigationView {
             ArticleListView(articles: Article.previewData)
+                // inject environmentObject
+                .environmentObject(articleBookmarkVM)
         }
     }
 }

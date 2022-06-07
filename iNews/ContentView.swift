@@ -10,9 +10,15 @@ import SwiftUI
 // Testing Ground Simulator
 struct ContentView: View {
     var body: some View {
+        TabView {
+            NewsTabView()
+                .tabItem{
+                    Label("News", systemImage: "newspaper")
+                }
+        }
         
         // test ArticleListView
-        ArticleListView(articles: Article.previewData)
+//        ArticleListView(articles: Article.previewData)
         
         // initialization code
 //        Text("Hello, world!")

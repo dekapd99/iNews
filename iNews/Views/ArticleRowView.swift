@@ -10,6 +10,9 @@ import SwiftUI
 // frontend: tampilan satu artikel
 struct ArticleRowView: View {
     
+    // sambungin fitur bookmark dengan @EnvironmentObject
+    @EnvironmentObject var articleBookmarkVM: ArticleBookmarkViewModel
+    
     // menggunakan file Article dari folder Models
     let article: Article
     var body: some View {
@@ -64,9 +67,10 @@ struct ArticleRowView: View {
                     
                     // Bookmark button
                     Button {
-                        
+                        toggleBookmark(for: article)
                     } label: {
-                        Image(systemName: "bookmark")
+                        // jika ada Artikel yang di Bookmark maka munculkan icon Bookmark Fil, jika tidak ada maka pakai icon bookmark biasa
+                        Image(systemName: articleBookmarkVM.isBookmarked(for: article) ? "bookmark.fill" : "bookmark")
                     }
                     .buttonStyle(.bordered)
                     
@@ -82,6 +86,14 @@ struct ArticleRowView: View {
             .padding([.horizontal, .bottom])
         }
     }
+    
+    private func toggleBookmark(for article: Article) {
+        if articleBookmarkVM.isBookmarked(for: article) {
+            articleBookmarkVM.removeBookmark(for: article)
+        } else {
+            articleBookmarkVM.addBookmark(for: article)
+        }
+    }
 }
 
 extension View {
@@ -95,6 +107,11 @@ extension View {
 }
 
 struct ArticleRowView_Previews: PreviewProvider {
+    
+    // sharing fitur bookmark diseluruh project folder dengan @StateObject secara Environment Object
+    // kalo gak dimasukkin kesini dalam bentuk static bakalan aplikasi crash
+    @StateObject static var articleBookmarkVM = ArticleNewsViewModel()
+    
     static var previews: some View {
         NavigationView {
             List {
@@ -104,5 +121,7 @@ struct ArticleRowView_Previews: PreviewProvider {
             }
             .listStyle(.plain) // style list content
         }
+        // inject environmentObject
+        .environmentObject(articleBookmarkVM)
     }
 }
