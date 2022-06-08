@@ -13,7 +13,7 @@ struct NewsAPI {
     private init() {}
     
     // HARUS UDAH SIGN UP DAN COPY API KEY-NYA KESINI
-    private let apiKey = "c3e18c0d11d34ffc9a4406ce16850aa2" // API Key bisa diganti dengan API Key sendiri
+    private let apiKey = "Key" // API Key bisa diganti dengan API Key sendiri
     private let session = URLSession.shared
     private let jsonDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
