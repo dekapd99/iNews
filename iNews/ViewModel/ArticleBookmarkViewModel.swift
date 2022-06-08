@@ -11,6 +11,18 @@ import SwiftUI
 class ArticleBookmarkViewModel: ObservableObject {
     
     @Published private(set) var bookmarks: [Article] = []
+    private let bookmarkStore = PlistDataStore<[Article]>(filename: "bookmarks")
+    
+    static let shared = ArticleBookmarkViewModel()
+    private init() {
+        async {
+            await load()
+        }
+    }
+    
+    private func load() async {
+        bookmarks = await bookmarkStore.load() ?? []
+    }
     
     // fungsi bookmark status dari artikel untuk keperluan add (bookmark) artikel dan remove dari bookmark
     // fungsi status bookmark dalam boolean
@@ -28,6 +40,7 @@ class ArticleBookmarkViewModel: ObservableObject {
         
         // insert ke index 0
         bookmarks.insert(article, at: 0)
+        bookmarkUpdated()
     }
     
     // fungsi remove bookmark
@@ -39,5 +52,13 @@ class ArticleBookmarkViewModel: ObservableObject {
         
         // remove bookmark
         bookmarks.remove(at: index)
+        bookmarkUpdated()
+    }
+    
+    private func bookmarkUpdated() {
+        let bookmarks = self.bookmarks
+        async {
+            await bookmarkStore.save(bookmarks)
+        }
     }
 }

@@ -41,23 +41,23 @@ class ArticleNewsViewModel: ObservableObject {
     func loadArticles() async {
         // Free Plan newsapi.org -> Handling Quota berlebih -> Komen coding dibawahnya supaya gak hit API jadi langsung get data dari local stored API (news.json)
         // Kalo mau langsung hit API comment line code dibawah ini dan uncomment line code dibawahnya
-        phase = .success(Article.previewData)
+//        phase = .success(Article.previewData)
         
-//        // Handling bug: Cancelled Error ketika awal menjalankan aplikasi
-//        if Task.isCancelled { return }
-//
-//        phase = .empty
-////        phase = .success([]) // Test case .success (No Articles) -> kalo mau nyoba Komen do & catch dibawah
-//        do {
-//            let articles = try await newsAPI.fetch(from: fetchTaskToken.category)
-//            if Task.isCancelled { return } // cek task cancelled error
-//            phase = .success(articles)
-//        } catch {
-//            if Task.isCancelled { return } // cek task cancelled error
-//            // print error
-//            print(error.localizedDescription)
-//            phase = .failure(error)
-//        }
+        // Handling bug: Cancelled Error ketika awal menjalankan aplikasi
+        if Task.isCancelled { return }
+
+        phase = .empty
+//        phase = .success([]) // Test case .success (No Articles) -> kalo mau nyoba Komen do & catch dibawah
+        do {
+            let articles = try await newsAPI.fetch(from: fetchTaskToken.category)
+            if Task.isCancelled { return } // cek task cancelled error
+            phase = .success(articles)
+        } catch {
+            if Task.isCancelled { return } // cek task cancelled error
+            // print error
+            print(error.localizedDescription)
+            phase = .failure(error)
+        }
     }
     
 }

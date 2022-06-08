@@ -111,7 +111,7 @@ struct ArticleRowView_Previews: PreviewProvider {
     
     // sharing fitur bookmark diseluruh project folder dengan @StateObject secara Environment Object
     // kalo gak dimasukkin kesini dalam bentuk static bakalan aplikasi crash
-    @StateObject static var articleBookmarkVM = ArticleBookmarkViewModel()
+    @StateObject static var articleBookmarkVM = ArticleBookmarkViewModel.shared
     
     static var previews: some View {
         NavigationView {

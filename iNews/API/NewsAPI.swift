@@ -21,10 +21,17 @@ struct NewsAPI {
         return decoder
     }()
     
-    // async fetch kategori ke main thread
+    // async fetch news kategori ke main thread
     func fetch(from category: Category) async throws -> [Article] {
-        let url = generateNewsURL(from: category)
-        
+        try await fetchArticles(from: generateNewsURL(from: category))
+    }
+    
+    // fungsi search
+    func search(for query: String) async throws -> [Article] {
+        try await fetchArticles(from: generateSearchURL(from: query))
+    }
+    
+    private func fetchArticles(from url: URL) async throws -> [Article] {
         // fetch data dengan url secara async
         let (data, response) = try await session.data(from: url)
         
@@ -50,6 +57,17 @@ struct NewsAPI {
     
     private func generateError(code: Int = 1, description: String) -> Error {
         NSError(domain: "NewsAPI", code: code, userInfo: [NSLocalizedDescriptionKey: description])
+    }
+    
+    // generate URL untuk search
+    private func generateSearchURL(from query: String) -> URL {
+        let percentEncodedString = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query
+
+        var url = "https//newsapi.org/v2/everything?"
+        url += "apiKey=\(apiKey)"
+        url += "&language=en"
+        url += "&q=\(percentEncodedString)"
+        return URL(string: url)!
     }
     
     // generate URL untuk kategori
