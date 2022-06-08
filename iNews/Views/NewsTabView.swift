@@ -59,11 +59,13 @@ struct NewsTabView: View {
     }
     
     // load mekanism
+    @Sendable
     private func loadTask() async {
         await articleNewsVM.loadArticles()
     }
     
     // refresh mekanism ketika refresh dan klik retry button, refresh test token dan assign new timestamp
+    @Sendable
     private func refreshTask() {
         articleNewsVM.fetchTaskToken = FetchTaskToken(category: articleNewsVM.fetchTaskToken.category, token: Date())
     }
