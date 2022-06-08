@@ -2,11 +2,10 @@
 //  ArticleBookmarkViewModel.swift
 //  iNews
 //
-//  Created by Deka Primatio on 07/06/22.
+//  Created by Deka Primatio on 08/06/22.
 //
 
-// Fitur Backend Bookmark
-import Foundation
+import SwiftUI
 
 @MainActor
 class ArticleBookmarkViewModel: ObservableObject {
@@ -33,7 +32,7 @@ class ArticleBookmarkViewModel: ObservableObject {
     
     // fungsi remove bookmark
     func removeBookmark(for article: Article) {
-        // cari index yang ada
+        // cari index bookmark yang ada
         guard let index = bookmarks.firstIndex(where: { $0.id == article.id }) else {
             return // return kalo gak ada artikel didalam bookmark
         }

@@ -12,7 +12,7 @@ import SwiftUI
 struct iNewsApp: App {
     
     // sharing fitur bookmark diseluruh project folder dengan @StateObject secara Environment Object
-    @StateObject var articleBookmarkVM = ArticleNewsViewModel()
+    @StateObject var articleBookmarkVM = ArticleBookmarkViewModel()
     
     var body: some Scene {
         WindowGroup {

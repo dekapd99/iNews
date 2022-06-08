@@ -10,7 +10,7 @@ import SwiftUI
 // Frontend: untuk bottom menu tab view
 struct NewsTabView: View {
     
-    //
+    // 
     @StateObject var articleNewsVM = ArticleNewsViewModel()
     
     var body: some View {
@@ -35,17 +35,20 @@ struct NewsTabView: View {
     private var overlayView: some View {
         switch articleNewsVM.phase {
         
-        // case empty = loading progress
-        case .empty: ProgressView()
-            
-        // case success = memunculkan Artikel didalam placeholder (EmptyPlaceholderView)
-        case .success(let articles) where articles.isEmpty: EmptyPlaceholderView(text: "No Articles", image: nil)
-            
-        // case failure = memunculkan error (RetryView)
-        case .failure(let error): RetryView(text: error.localizedDescription, retryAction: refreshTask)
-            
-        // default case
-        default: EmptyView()
+            // case empty = loading progress
+            case .empty:
+                ProgressView()
+                
+            // case success = memunculkan Artikel didalam placeholder (EmptyPlaceholderView)
+            case .success(let articles) where articles.isEmpty:
+                EmptyPlaceholderView(text: "No Articles", image: nil)
+                
+            // case failure = memunculkan error (RetryView)
+            case .failure(let error):
+                RetryView(text: error.localizedDescription, retryAction: refreshTask)
+                
+            // default case
+            default: EmptyView()
         }
     }
     
@@ -91,7 +94,7 @@ struct NewsTabView_Previews: PreviewProvider {
     
     // sharing fitur bookmark diseluruh project folder dengan @StateObject secara Environment Object
     // kalo gak dimasukkin kesini dalam bentuk static bakalan aplikasi crash
-    @StateObject static var articleBookmarkVM = ArticleNewsViewModel()
+    @StateObject static var articleBookmarkVM = ArticleBookmarkViewModel()
     
     static var previews: some View {
         NewsTabView(articleNewsVM: ArticleNewsViewModel(articles: Article.previewData))
