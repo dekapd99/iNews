@@ -37,22 +37,26 @@ struct SearchTabView: View {
     @ViewBuilder
     private var overlayView: some View {
         switch searchVM.phase {
-            case .empty:
-                if !searchVM.searchQuery.isEmpty {
-                    ProgressView()
-                } else if !searchVM.history.isEmpty {
-                    SearchHistoryListView(searchVM: searchVM) { newValue in
-                        searchVM.searchQuery = newValue
-                    }
-                } else {
-                    EmptyPlaceholderView(text: "Type your query to search from NewsAPI", image: Image(systemName: "magnifyingglass"))
+        case .empty:
+            if !searchVM.searchQuery.isEmpty {
+                ProgressView()
+            } else if !searchVM.history.isEmpty {
+                SearchHistoryListView(searchVM: searchVM) { newValue in
+                    searchVM.searchQuery = newValue
+                    search()
                 }
-                
-            case .success(let articles) where articles.isEmpty:
-                EmptyPlaceholderView(text: "No search results found", image: Image(systemName: "magnifyingglass"))
-            case .failure(let error):
-                RetryView(text: error.localizedDescription, retryAction: search)
-            default: EmptyView()
+            } else {
+                EmptyPlaceholderView(text: "Search News", image: Image(systemName: "magnifyingglass"))
+            }
+            
+        case .success(let articles) where articles.isEmpty:
+            EmptyPlaceholderView(text: "No search results found", image: Image(systemName: "magnifyingglass"))
+            
+        case .failure(let error):
+            RetryView(text: error.localizedDescription, retryAction: search)
+            
+        default: EmptyView()
+            
         }
     }
     
@@ -73,7 +77,7 @@ struct SearchTabView: View {
             searchVM.addHistory(searchQuery)
         }
         
-        async {
+        Task {
             await searchVM.searchArticle()
         }
     }

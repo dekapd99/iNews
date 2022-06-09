@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Concurrency Type (Actor) untuk membantu menghindari masalah di database ketika update value
+// Concurrency Type (Actor) untuk membantu menghindari masalah di database query ketika terjadi update pada sebuah value
 protocol DataStore: Actor {
     
     associatedtype D

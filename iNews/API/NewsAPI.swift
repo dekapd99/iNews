@@ -7,45 +7,48 @@
 
 import Foundation
 
+// Berisikan inisialisasi API, Api Key, URL Session, decode JSON file, fetch (kategori, search), fungsi fetch response status code, error domain, Generate hasil (search dan kategori) dalam bentuk URL
 struct NewsAPI {
     
     static let shared = NewsAPI()
-    private init() {}
+    private init() {} // inisialisasi API
     
-    // HARUS UDAH SIGN UP DAN COPY API KEY-NYA KESINI
-    private let apiKey = "c3e18c0d11d34ffc9a4406ce16850aa2" // API Key bisa diganti dengan API Key sendiri
-    private let session = URLSession.shared
+    private let apiKey = "copy & paste your apikey here" // replace with your API Key
+    private let session = URLSession.shared // get URL Session
+    
+    // Fungsi decode JSON File (standar iso8601 -> ini dari API-nya) menjadi native swift file
     private let jsonDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .iso8601
         return decoder
     }()
     
-    // async fetch news kategori ke main thread
+    // Fetching Berita dari Kategori dan Generate hasil Artikel berdasarkan kategori tersebut
     func fetch(from category: Category) async throws -> [Article] {
         try await fetchArticles(from: generateNewsURL(from: category))
     }
     
-    // fungsi search
+    // Fungsi search dari String Input dan Generate hasil Artikel berdasarkan Input tersebut
     func search(for query: String) async throws -> [Article] {
         try await fetchArticles(from: generateSearchURL(from: query))
     }
     
+    // Fungsi Fetching Data dan Response Code API Berita dari URL
     private func fetchArticles(from url: URL) async throws -> [Article] {
-        // fetch data dengan url secara async
+        // deklarasi data dan response di main thread
         let (data, response) = try await session.data(from: url)
         
+        // Error handling response from API Provider (Directly)
         guard let response = response as? HTTPURLResponse else {
             throw generateError(description: "Bad Response")
         }
         
-        // kita akan decode dengan json decoder
+        // Decode Response Code API dengan jsonDecoder dan Generate Hasil Error berdasarkan Code response tersebut
         switch response.statusCode{
-            
         case (200...299), (400...499):
             let apiResponse = try jsonDecoder.decode(NewsAPIResponse.self, from: data)
             if apiResponse.status == "ok" {
-                return apiResponse.articles ?? []
+                return apiResponse.articles ?? [] // return berita ke dalam array
             } else {
                 throw generateError(description: apiResponse.message ?? "An Error Occured")
             }
@@ -55,22 +58,22 @@ struct NewsAPI {
         }
     }
     
+    // Fungsi Generate Error Domain
     private func generateError(code: Int = 1, description: String) -> Error {
         NSError(domain: "NewsAPI", code: code, userInfo: [NSLocalizedDescriptionKey: description])
     }
     
-    // generate URL untuk search
+    // Fungsi Generate Hasil Search dari String Input ke dalam bentuk URL
     private func generateSearchURL(from query: String) -> URL {
         let percentEncodedString = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query
-
-        var url = "https//newsapi.org/v2/everything?"
+        var url = "https://newsapi.org/v2/everything?"
         url += "apiKey=\(apiKey)"
         url += "&language=en"
         url += "&q=\(percentEncodedString)"
         return URL(string: url)!
     }
     
-    // generate URL untuk kategori
+    // Fungsi Generate Berita dari Hasil Pemilihan Kategori ke dalam bentuk URL
     private func generateNewsURL(from category: Category) -> URL {
         var url = "https://newsapi.org/v2/top-headlines?"
         url += "apiKey=\(apiKey)"

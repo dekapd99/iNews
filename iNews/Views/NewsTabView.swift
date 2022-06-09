@@ -70,7 +70,9 @@ struct NewsTabView: View {
     // refresh mekanism ketika refresh dan klik retry button, refresh test token dan assign new timestamp
     @Sendable
     private func refreshTask() {
-        articleNewsVM.fetchTaskToken = FetchTaskToken(category: articleNewsVM.fetchTaskToken.category, token: Date())
+        DispatchQueue.main.async {
+            articleNewsVM.fetchTaskToken = FetchTaskToken(category: articleNewsVM.fetchTaskToken.category, token: Date())
+        }
     }
     
     // menampilkan kategori berita yang dipilih

@@ -8,6 +8,7 @@
 // Environment Object File pada Project iNews
 import SwiftUI
 
+// Root Project
 @main
 struct iNewsApp: App {
     

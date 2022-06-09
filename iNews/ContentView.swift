@@ -5,11 +5,13 @@
 //  Created by Deka Primatio on 01/06/22.
 //
 
+// Root Content
 import SwiftUI
 
 // Testing Ground Simulator
 struct ContentView: View {
     var body: some View {
+        // Bottom Navigation Menu
         TabView {
             NewsTabView()
                 .tabItem{
