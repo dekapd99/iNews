@@ -2,7 +2,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About
-iNews adalah aplikasi iOS berita internasional yang datanya didapatkan dari [newsapi.org](https://newsapi.org/).
+iNews adalah aplikasi iOS berita internasional yang datanya didapatkan dari [newsapi.org](https://newsapi.org/). Dibuat menggunakan SwiftUI, MVVM Design Pattern, dan Paw. Aplikasi ini memiliki fitur Search, Filter, Bookmark, Search History, Safari Browser, dan Sharing URL Berita.
 
 <!-- ABOUT THE FILE & FOLDER STRUCTURE -->
 ## Folder & File Structure
