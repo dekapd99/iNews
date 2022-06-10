@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Concurrency Type (Actor) untuk membantu menghindari masalah di database query ketika terjadi update pada sebuah value
+// Berisikan Data Struktur Concurrency Type (Actor) untuk membantu menghindari masalah di database query ketika terjadi update pada sebuah value
 protocol DataStore: Actor {
     
     associatedtype D
@@ -16,6 +16,7 @@ protocol DataStore: Actor {
     func load() -> D?
 }
 
+// Mutable State pada Data Store
 actor PlistDataStore<T: Codable>: DataStore where T: Equatable {
     
     private var saved: T?

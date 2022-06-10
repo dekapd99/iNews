@@ -6,17 +6,19 @@
 //
 
 import SwiftUI
-import SafariServices // untuk membuka aplikasi safari ketika klik berita
+import SafariServices // Library untuk membuka aplikasi safari ketika klik berita yang diinginkan
 
+// Berisikan fungsi untuk membuka safari berdasarkan URL Berita
 struct SafariView: UIViewControllerRepresentable {
     
-    let url: URL // declare url
+    let url: URL // Deklarasi berita
     
-    // backend menampilkan tampilan browser safari
+    // Backend: mekanisme perpindahan view controll berita menjadi browser safari
     func makeUIViewController(context: Context) -> some SFSafariViewController {
         SFSafariViewController(url: url)
     }
     
+    // View control update (Browser Safari terbuka di dalam Aplikasi iNews)
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {}
     
 }

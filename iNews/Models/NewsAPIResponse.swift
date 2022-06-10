@@ -8,6 +8,7 @@
 // Handling API Response Code
 import Foundation
 
+// Berisikan variable Response
 struct NewsAPIResponse: Decodable {
     
     let status: String

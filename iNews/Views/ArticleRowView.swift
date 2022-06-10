@@ -7,34 +7,33 @@
 
 import SwiftUI
 
-// frontend: tampilan satu artikel
+// Berisikan Tampilan Berita (per baris / satuan)
 struct ArticleRowView: View {
     
-    // sambungin fitur bookmark dengan @EnvironmentObject
+    // Mengaktifkan fitur bookmark dengan @EnvironmentObject terhadap VM Bookmark
     @EnvironmentObject var articleBookmarkVM: ArticleBookmarkViewModel
     
-    // menggunakan file Article dari folder Models
     let article: Article
     var body: some View {
-        
-        // untuk memunculkan gambar ketika loading
-        VStack(alignment: .leading, spacing: 16){ // Vertical Stack
+        // Wrapper Vertikal untuk Gambar
+        VStack(alignment: .leading, spacing: 16){
+            // load tampilan berita di main thread
             AsyncImage(url: article.imageURL) { phase in
                 switch phase {
                 case .empty: // Skeleton ketika gambar sedang loading
-                    HStack { // Horizontal Stack
+                    HStack { // Wrapper Horizontal untuk animasi ProgressView()
                         Spacer()
                         ProgressView()
                         Spacer()
                     }
                     
-                case .success(let image): // ketika berhasil loading
+                case .success(let image): // Load thumbnail berita
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                     
-                case .failure: // ketika error API Code Response
-                    HStack { // Horizontal Stack
+                case .failure: // Gagal load berita
+                    HStack { // Wrapper Horizontal untuk icon photo
                         Spacer()
                         Image(systemName: "photo").imageScale(.large)
                         Spacer()
@@ -44,19 +43,21 @@ struct ArticleRowView: View {
                     fatalError()
                 }
             }
-            .frame(minHeight: 200, maxHeight: 300)
-            .background(Color.gray.opacity(0.3))
-            .clipped()
+            .frame(minHeight: 200, maxHeight: 300) // Ukuran frame row untuk gambar
+            .background(Color.gray.opacity(0.3)) // Warna background skeleton
+            .clipped() // clip gambar sesuai frame agar tidak overflow
             
+            // Wrapper Vertikal untuk (Judul, Deskripsi, Caption, Button (Bookmark dan Share))
             VStack(alignment: .leading, spacing: 8) {
                 Text(article.title)
                     .font(.headline)
-                    .lineLimit(3)
+                    .lineLimit(3) // Max baris (Judul)
                 
                 Text(article.descriptionText)
                     .font(.subheadline)
-                    .lineLimit(2)
+                    .lineLimit(2) // Max baris (Deskripsi)
                 
+                // Wrapper Horizontal (Caption, Button (Bookmark & Share))
                 HStack {
                     Text(article.captionText)
                         .lineLimit(1)
@@ -65,11 +66,12 @@ struct ArticleRowView: View {
                     
                     Spacer()
                     
-                    // Bookmark button
+                    // Toggle Bookmark button
                     Button {
                         toggleBookmark(for: article)
                     } label: {
-                        // jika ada Artikel yang di Bookmark maka munculkan icon Bookmark Fil, jika tidak ada maka pakai icon bookmark biasa
+                        // jika sudah di Bookmark maka tampilan button icon berubah menjadi Bookmark Fill,
+                        // jika belum di bookmark maka tampilan button icon tetap bookmark biasa
                         Image(systemName: articleBookmarkVM.isBookmarked(for: article) ? "bookmark.fill" : "bookmark")
                     }
                     .buttonStyle(.bordered)
@@ -83,10 +85,13 @@ struct ArticleRowView: View {
                     .buttonStyle(.bordered)
                 }
             }
-            .padding([.horizontal, .bottom])
+            .padding([.horizontal, .bottom]) // kasih padding bawah
         }
     }
     
+    // Fungsi toggle bookmark
+    // jika button ditekan dan statusnya sudah ada didalam bookmark maka remove dari bookmark
+    // jika button ditekan dan statusnya belum ada didalam bookmark maka tambakan ke bookmark
     private func toggleBookmark(for article: Article) {
         if articleBookmarkVM.isBookmarked(for: article) {
             articleBookmarkVM.removeBookmark(for: article)
@@ -97,7 +102,7 @@ struct ArticleRowView: View {
 }
 
 extension View {
-    
+    // Fungsi untuk menampilkan Panel sharing with URL ketika tombol share ditekan
     func presentShareSheet(url: URL) {
         let activityVC = UIActivityViewController(activityItems: [url], applicationActivities: nil)
         (UIApplication.shared.connectedScenes.first as? UIWindowScene)?
@@ -108,21 +113,19 @@ extension View {
 }
 
 struct ArticleRowView_Previews: PreviewProvider {
-    
-    // sharing fitur bookmark diseluruh project folder dengan @StateObject secara Environment Object
-    // kalo gak dimasukkin kesini dalam bentuk static bakalan aplikasi crash
+    // Mengaktifkan fitur bookmark yang sudah di supply di root project di buat dalam static agar aplikasi tidak crash
     @StateObject static var articleBookmarkVM = ArticleBookmarkViewModel.shared
     
+    // Frontend: Menampilkan Berita dalam bentuk List
     static var previews: some View {
         NavigationView {
             List {
-                // tampilan ui ketika preview artikel
                 ArticleRowView(article: .previewData[0])
                     .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
             }
-            .listStyle(.plain) // style list content
+            .listStyle(.plain)
         }
-        // inject environmentObject
+        // Property wrapper observable object fitur bookmark dari root folder diatas
         .environmentObject(articleBookmarkVM)
     }
 }

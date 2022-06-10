@@ -7,12 +7,16 @@
 
 import SwiftUI
 
-// Halaman Bookmark
+// Tampilan Halaman Bookmark berisikan NavigationView dan Search Berita yang ada di Daftar Bookmark
 struct BookmarkTabView: View {
     
+    // Mengaktifkan fitur bookmark dengan @EnvironmentObject
     @EnvironmentObject var articleBookmarkVM: ArticleBookmarkViewModel
+    
+    // Fitur Search di Bookmark
     @State var searchText: String = ""
     
+    // Frontend: Tampilan default halaman bookmark
     var body: some View {
         let articles = self.articles
         
@@ -24,6 +28,9 @@ struct BookmarkTabView: View {
         .searchable(text: $searchText)
     }
     
+    // Fungsi search di halaman bookmark
+    // Jika tidak ada yang di search maka tampilkan Bookmark yang tersimpan
+    // Jika ada yang di search maka tampilkan hasil searchnya dengan membandingkan String input dengan Judul dan Deskripsi berita yang tersimpan di bookmark
     private var articles: [Article] {
         if searchText.isEmpty {
             return articleBookmarkVM.bookmarks
@@ -35,7 +42,7 @@ struct BookmarkTabView: View {
             }
     }
     
-    // fungsi buat cek apakah ada artikel yang sudah dibookmark
+    // Fungsi penampilan halaman ketika bookmark kosong / ada isinya
     @ViewBuilder
     func overlayView(isEmpty: Bool) -> some View {
         if isEmpty {
@@ -45,11 +52,12 @@ struct BookmarkTabView: View {
 }
 
 struct BookmarkTabView_Previews: PreviewProvider {
-    
+    // Mengaktifkan fitur bookmark yang sudah di supply di root project di buat dalam static agar aplikasi tidak crash
     @StateObject static var articleBookmarkVM = ArticleBookmarkViewModel.shared
     
     static var previews: some View {
         BookmarkTabView()
+            // Property wrapper observable object fitur bookmark dari root folder diatas
             .environmentObject(articleBookmarkVM)
     }
 }

@@ -7,9 +7,12 @@
 
 import Foundation
 
+// Formatter Tanggal
 fileprivate let relativeDateFormatter = RelativeDateTimeFormatter()
 
-// Data Article ("articles") dari news.json
+// Berisikan Endpoint Data API Article ("articles") yang akan digunakan pada aplikasi dari news.json dan Online API
+// Endpoint Data API (Mandatory): Sumber, Judul, URL Berita, dan Tanggal Publish !
+// Endpoint Data API (Optional) : Author, Deskripsi, dan URL Thumbnail Berita ?
 struct Article {
     
     let source: Source
@@ -24,7 +27,7 @@ struct Article {
     let description: String?
     let urlToImage: String?
     
-    // komputasi property handler
+    // computed property author & deskripsi (optional)
     var authorText: String {
         author ?? ""
     }
@@ -33,7 +36,7 @@ struct Article {
         description ?? ""
     }
     
-    // computed property sumber news dan jam berita di publish
+    // computed property sumber berita dan berapa lama sudah dipublish
     var captionText: String {
         "\(source.name) ・ \(relativeDateFormatter.localizedString(for: publishedAt, relativeTo: Date())) "
     }
@@ -51,36 +54,35 @@ struct Article {
     }
 }
 
-// encode & decode data dari API dan untuk simpan ke Bookmark
+// Encode & Decode data dari API dan untuk simpan ke Bookmark
 extension Article: Codable{}
 extension Article: Equatable{}
 extension Article: Identifiable{
-    var id: String { url }
+    var id: String { url } // unique id provider ketika berita di tampilkan di aplikasi
 }
 
-// protokol comformance untuk artikel
-
-
+// Protokol comformance untuk artikel dengan JSONDecoder
 extension Article {
-    // untuk menampung static computed property preview data berisikan array dari Article
+    // Menampung static computed property preview data berisikan array dari Article
     static var previewData: [Article]{
+        // Preview data dari URL Berita dengan bentuk ekstensi JSON
         let previewDataURL = Bundle.main.url(forResource: "news", withExtension: "json")!
-        let data = try! Data(contentsOf: previewDataURL)
+        let data = try! Data(contentsOf: previewDataURL) // tampilkan data dari previewDataURL
         
-        // declare jsonDecoder
         let jsonDecoder = JSONDecoder()
         
-        // lihat publishedAt itu merupakan standar penulisan tanggal kode: iso8601
+        // publishedAt itu merupakan standar penulisan tanggal kode: iso8601
         jsonDecoder.dateDecodingStrategy = .iso8601 // konversi iso8601 ke Swift Native Date Type
         
-        // API Response
+        // API Response untuk hasil decode data json
         let apiResponse = try! jsonDecoder.decode(NewsAPIResponse.self, from: data)
-        return apiResponse.articles ?? []
+        return apiResponse.articles ?? [] // store apiResponse artikel ke array
     }
 }
 
 struct Source {
     let name: String
 }
+
 extension Source: Codable{}
 extension Source: Equatable{}

@@ -16,7 +16,7 @@ struct NewsAPI {
     private let apiKey = "copy & paste your apikey here" // replace with your API Key
     private let session = URLSession.shared // get URL Session
     
-    // Fungsi decode JSON File (standar iso8601 -> ini dari API-nya) menjadi native swift file
+    // Fungsi decode JSON File (standar iso8601 -> ini dari API-nya) menjadi Native Swift Date Type
     private let jsonDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .iso8601

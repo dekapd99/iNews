@@ -7,16 +7,18 @@
 
 import SwiftUI
 
-// frontend: tampilan list artikel
+// Berisikan Tampilan Berita dalam Bentuk List
 struct ArticleListView: View {
     
-    // delcare content untuk menghubungkan
     let articles: [Article]
+
+    // Artikel yang dipilih untuk membuka fitur SafariView
     @State private var selectedArticle: Article?
     
-    // untuk menampilkan setiap berita yang ada di API
     var body: some View {
+        // Menampilkan setiap berita dalam bentuk list
         List {
+            // Fungsi ForEach pemanggilan setiap berita dari API
             ForEach(articles) { article in
                 ArticleRowView(article: article)
                     .onTapGesture {
@@ -24,13 +26,13 @@ struct ArticleListView: View {
                     }
             }
             .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
-            .listRowSeparator(.hidden)
+            .listRowSeparator(.hidden) // Tidak ada pemisah antar tiap berita
         }
         .listStyle(.plain)
-        // menampilkan tab view baru browser Safari
+        // Menampilkan tab view baru browser Safari
         .sheet(item: $selectedArticle) {
             SafariView(url: $0.articleURL)
-                // supaya floating bottom menu menempel ke bagian paling bawah layar iphone
+                // Supaya floating bottom menu menempel ke bagian paling bawah layar iphone
                 .edgesIgnoringSafeArea(.bottom)
         }
     }
@@ -38,14 +40,13 @@ struct ArticleListView: View {
 
 struct ArticleListView_Previews: PreviewProvider {
     
-    // sharing fitur bookmark diseluruh project folder dengan @StateObject secara Environment Object
-    // kalo gak dimasukkin kesini dalam bentuk static bakalan aplikasi crash
+    // Mengaktifkan fitur bookmark yang sudah di supply di root project di buat dalam static agar aplikasi tidak crash
     @StateObject static var articleBookmarkVM = ArticleBookmarkViewModel.shared
     
     static var previews: some View {
         NavigationView {
             ArticleListView(articles: Article.previewData)
-                // inject environmentObject
+                // Property wrapper observable object fitur bookmark dari root folder diatas
                 .environmentObject(articleBookmarkVM)
         }
     }

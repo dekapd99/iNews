@@ -7,7 +7,7 @@
 
 import Foundation
 
-// declare raw value untuk kategori berita
+// Berisikan Deklarasi raw value kategori berita
 enum Category: String, CaseIterable {
     case general
     case business
@@ -17,7 +17,7 @@ enum Category: String, CaseIterable {
     case science
     case health
     
-    // computed property untuk display setiap case ke dalam teks
+    // computed property untuk display default case yaitu .general (Top Headlines)
     var text: String {
         if self == .general {
             return "Top Headlines"
