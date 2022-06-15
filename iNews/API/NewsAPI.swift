@@ -13,7 +13,7 @@ struct NewsAPI {
     static let shared = NewsAPI()
     private init() {} // inisialisasi API
     
-    private let apiKey = "copy & paste your apikey here" // replace with your API Key
+    private let apiKey = "c3e18c0d11d34ffc9a4406ce16850aa2" // replace with your API Key
     private let session = URLSession.shared // get URL Session
     
     // Fungsi decode JSON File (standar iso8601 -> ini dari API-nya) menjadi Native Swift Date Type

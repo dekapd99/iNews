@@ -19,7 +19,7 @@ struct SearchTabView: View {
         NavigationView {
             ArticleListView(articles: articles)
                 .overlay(overlayView)
-                .navigationTitle("Search")
+                .navigationTitle("Cari Berita")
         }
         // Penggunaan method search dari daftar SuggestionView
         .searchable(text: $searchVM.searchQuery) { suggestionsView }
@@ -57,11 +57,11 @@ struct SearchTabView: View {
                     search() // Lakukan search
                 }
             } else {
-                EmptyPlaceholderView(text: "Search News", image: Image(systemName: "magnifyingglass"))
+                EmptyPlaceholderView(text: "Cari Berita", image: Image(systemName: "magnifyingglass"))
             }
         // Kasus Sukses Sistem: tampilkan hasil tidak ada artikel dan
         case .success(let articles) where articles.isEmpty:
-            EmptyPlaceholderView(text: "No search results found", image: Image(systemName: "magnifyingglass"))
+            EmptyPlaceholderView(text: "Hasil Tidak Ditemukan", image: Image(systemName: "magnifyingglass"))
         // Kasus Gagal Sistem: tampilkan deskripsi error dan tombol retry
         case .failure(let error):
             RetryView(text: error.localizedDescription, retryAction: search)

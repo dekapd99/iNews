@@ -34,6 +34,6 @@ struct EmptyPlaceholderView: View {
 struct EmptyPlaceholderView_Previews: PreviewProvider {
     // Default text kalo Bookmark Kosong
     static var previews: some View {
-        EmptyPlaceholderView(text: "No Bookmark", image: Image(systemName: "bookmark"))
+        EmptyPlaceholderView(text: "Kosong", image: Image(systemName: "bookmark"))
     }
 }

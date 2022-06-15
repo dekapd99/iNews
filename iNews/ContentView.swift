@@ -15,17 +15,17 @@ struct ContentView: View {
         TabView {
             NewsTabView()
                 .tabItem{
-                    Label("News", systemImage: "newspaper")
+                    Label("Berita", systemImage: "newspaper")
                 }
             
             SearchTabView()
                 .tabItem{
-                    Label("Search", systemImage: "magnifyingglass")
+                    Label("Pencarian", systemImage: "magnifyingglass")
                 }
             
             BookmarkTabView()
                 .tabItem {
-                    Label("Saved", systemImage: "bookmark")
+                    Label("Bookmark", systemImage: "bookmark")
                 }
         }
         

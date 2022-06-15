@@ -19,10 +19,10 @@ struct SearchHistoryListView: View {
         List {
             // Wrapper Horizontal yang berisikan elemen Text & Button
             HStack {
-                Text("Recently Searched")
+                Text("Riwayat Pencarian")
                 Spacer()
                 // Jika button di tekan jalankan fungsi remove semua history
-                Button("Clear") {
+                Button("Hapus") {
                     searchVM.removeAllHistory()
                 }
                 .foregroundColor(.accentColor)

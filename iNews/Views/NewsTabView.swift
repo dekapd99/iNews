@@ -42,7 +42,7 @@ struct NewsTabView: View {
                 
             // Kasus Sukses Sistem = Ketika tidak ada berita
             case .success(let articles) where articles.isEmpty:
-                EmptyPlaceholderView(text: "No Articles", image: nil)
+                EmptyPlaceholderView(text: "Tidak Ada Artikel", image: nil)
                 
             // Kasus Failure Sistem = memunculkan error dan tombol Retry (RetryView) -> ketika ditekan bisa refresh halaman
             case .failure(let error):
