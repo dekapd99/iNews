@@ -1,9 +1,18 @@
 # iNews
-
 <!-- ABOUT THE PROJECT -->
-## About
-iNews adalah aplikasi iOS berita internasional yang datanya didapatkan dari [newsapi.org](https://newsapi.org/). Dibuat menggunakan SwiftUI, MVVM Design Pattern, dan Paw. Aplikasi ini memiliki fitur Search, Filter, Bookmark, Search History, Safari Browser, dan Sharing URL Berita.
+<p align="center">
+  <a href="#" target="_blank"><img src="iNews.png" width="200"></a>
+</p>
 
+iNews adalah aplikasi iOS Berita Internasional yang datanya didapatkan dari [News API](https://newsapi.org/). Dibuat menggunakan SwiftUI, MVVM Design Pattern, dan Paw. Aplikasi ini memiliki fitur Search, Filter, Bookmark, Search History, Safari Browser, dan Sharing URL Berita.
+
+## Preview
+<p align="center">
+    <a href="#" target="_blank"><img src="1.png" width="200"></a>
+    <a href="#" target="_blank"><img src="2.png" width="200"></a>
+    <a href="#" target="_blank"><img src="3.png" width="200"></a>
+</p>
+    
 <!-- ABOUT THE FILE & FOLDER STRUCTURE -->
 ## Folder & File Structure
 iNews mengikuti pedoman design pattern dengan 3 komponen, yaitu Model, View, & ViewModel (MVVM). 
