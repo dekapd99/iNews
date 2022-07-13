@@ -1,9 +1,9 @@
-# iNews
 <!-- ABOUT THE PROJECT -->
 <p align="center">
   <a href="#" target="_blank"><img src="iNews.png" width="200"></a>
 </p>
 
+# iNews
 iNews adalah aplikasi iOS Berita Internasional yang datanya didapatkan dari [News API](https://newsapi.org/). Dibuat menggunakan SwiftUI, MVVM Design Pattern, dan Paw. Aplikasi ini memiliki fitur Search, Filter, Bookmark, Search History, Safari Browser, dan Sharing URL Berita.
 
 ## Preview
